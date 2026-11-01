@@ -7,7 +7,7 @@ author: "Emanuele"
 tags: ["Nuvole"]
 ---
 
-<figure><a href="https://lh5.googleusercontent.com/bPgl5GrdXBTcjadZBiTVt8cCR9RC73R-Rdt6X-KUs26FALpF7xZZLDCl0cqECOKLdEjCOitj3gpanZynL-jcPSkVojE6JyJBbGY4604p2VsHVKgIjcMPyvm_XDlzioR-pom9jO0w"><img src="https://lh5.googleusercontent.com/bPgl5GrdXBTcjadZBiTVt8cCR9RC73R-Rdt6X-KUs26FALpF7xZZLDCl0cqECOKLdEjCOitj3gpanZynL-jcPSkVojE6JyJBbGY4604p2VsHVKgIjcMPyvm_XDlzioR-pom9jO0w" alt="" loading="lazy"></a></figure>
+<figure><a href="/images/il-corpo-e-il-marmo-1.jpg"><img src="/images/il-corpo-e-il-marmo-1.jpg" alt="" loading="lazy"></a></figure>
 
 Questa immagine è inquietante. Nonostante [le clausole legali](http://www.bodyworldsinthecity.it/faq/) che quella persona possa aver letto e sottoscritto. Si tratta di un corpo umano trattato con la tecnica della plastinazione, esposto alla mostra itinerante Body Worlds.
 
@@ -15,7 +15,7 @@ La questione mi ha fatto riflettere sul tema dell'arte e del corpo e mi sono tor
 
 Ho trovato un testo ([I Prigioni o Schiavi di Michelangelo all'Accademia](http://www.accademia.org/it/esplora-il-museo/le-opere/i-prigioni-schiavi-di-michelangelo/)) che tratta quasi lo stesso tema: "Ogni blocco mostra una solida muscolatura delle braccia e delle gambe abbozzati in modo dinamico e potente, traccia concreta della profonda passione che Michelangelo nutriva per l’anatomia umana. La conoscenza minuziosa dei dettagli era infatti stata affinata grazie alla possibilità di dissezionare cadaveri presso i frati agostiniani di Firenze negli anni ’90 del Quattrocento."
 
-<figure><a href="https://lh3.googleusercontent.com/XGXTDgclJxnSuy0_cpm5euV2_EScdzv55ge4W-C9XpSdFw55FUz0L3dEtNrq72QsyDjwZbr-EkTmSewbsm3MgZZFCySfuZ62K_J67CiiFezLE8aZbKiEjsfE9VExPVBYgzuwlLgB"><img src="https://lh3.googleusercontent.com/XGXTDgclJxnSuy0_cpm5euV2_EScdzv55ge4W-C9XpSdFw55FUz0L3dEtNrq72QsyDjwZbr-EkTmSewbsm3MgZZFCySfuZ62K_J67CiiFezLE8aZbKiEjsfE9VExPVBYgzuwlLgB" alt="" loading="lazy"></a></figure>
+<figure><a href="/images/il-corpo-e-il-marmo-2.jpg"><img src="/images/il-corpo-e-il-marmo-2.jpg" alt="" loading="lazy"></a></figure>
 
 “C’è un senso di tensione, di movimento impresso dall’accentuata torsione: questa lotta esprime in Michelangelo una sorta di analogia simbolica fra la figura che tenta di fuoriuscire dal marmo e lo spirito che cerca di liberarsi dalla carne per anelare a Dio.”
 

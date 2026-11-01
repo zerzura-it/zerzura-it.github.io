@@ -25,4 +25,4 @@ Ora forse è più chiaro come l’invito di Gesù non sia ad una postura di umil
 
 Beati quelli il cui spirito è affamato, perché vostro è il regno dei cieli!
 
-<figure><a href="https://lh4.googleusercontent.com/FAFBXx4qNBFO3NiKIKdXI2kNtNepmcp8jdVEhaAuQGN1ohFqUDxqlsyRJGt0maP3Jkx50WuQN__rxtjqq1C2TFi52XCYQUUNIzA2Z24F9kVEagehuSidBfMxY6ujWylJB8IBEkNq"><img src="https://lh4.googleusercontent.com/FAFBXx4qNBFO3NiKIKdXI2kNtNepmcp8jdVEhaAuQGN1ohFqUDxqlsyRJGt0maP3Jkx50WuQN__rxtjqq1C2TFi52XCYQUUNIzA2Z24F9kVEagehuSidBfMxY6ujWylJB8IBEkNq" alt="13 - 1.jpg" loading="lazy"></a><figcaption>Veduta del lago di Galilea nei pressi di Cafarnao</figcaption></figure>
+<figure><a href="/images/poveri-di-spirito-1.jpg"><img src="/images/poveri-di-spirito-1.jpg" alt="13 - 1.jpg" loading="lazy"></a><figcaption>Veduta del lago di Galilea nei pressi di Cafarnao</figcaption></figure>

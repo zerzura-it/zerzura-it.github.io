@@ -34,13 +34,13 @@ Perché l’hacker, nel senso originale del termine, è colui che affina la prop
 
 Fu un cambiamento di direzione e di prospettiva, un nuovo modo di stare al mondo. Ciò produsse la necessità del lavoro da cui scaturirono una enorme efficienza produttiva e l’accumulo di ricchezza che resero possibili l’organizzazione, la scrittura e la civiltà. I benefici ottenuti erano decisamente affascinanti.
 
-<figure><a href="https://lh6.googleusercontent.com/y_2Cc2Q5f-8ecF_UIHiFgg05Iyf_EzjaD5XLr8FO6Jacii3UIIR-4p7qNmL1FKnmGth1dzQpjWmDwTmTKOonTKuD9UIAMj9KOtAjhPJ3RWrzNPEU1H_YLmOd3uVLXwljmYhvsIPk"><img src="https://lh6.googleusercontent.com/y_2Cc2Q5f-8ecF_UIHiFgg05Iyf_EzjaD5XLr8FO6Jacii3UIIR-4p7qNmL1FKnmGth1dzQpjWmDwTmTKOonTKuD9UIAMj9KOtAjhPJ3RWrzNPEU1H_YLmOd3uVLXwljmYhvsIPk" alt="workers.jpg" loading="lazy"></a></figure>
+<figure><a href="/images/un-hacker-di-nome-caino-1.jpg"><img src="/images/un-hacker-di-nome-caino-1.jpg" alt="workers.jpg" loading="lazy"></a></figure>
 
 La recente rivoluzione industriale segnò poi un’importante accelerazione grazie alla produzione di manufatti per mezzo di altri manufatti (le macchine), alimentati da fonti di energia inanimate (i combustibili fossili). Ma a ben guardare si tratta ancora di un cambiamento simile all’agricoltura, applicato non più solo alla produzione di cibo da parte delle piante, bensì alla produzione di manufatti da parte degli uomini. 
 
 Il coinvolgimento delle masse, che in passato avveniva solo in modo parziale, come per la costruzione di grandi opere faraoniche, con il moderno capitalismo diventa totale e pervasivo diffondendo il reclutamento al lavoro su tutto il pianeta. Il lavoratore alienato nella fabbrica o alla scrivania sta all’artigiano e al pastore come la pianta coltivata nell’agricoltura intensiva sta alla pianta che cresce spontanea. E lo stesso vale ovviamente per gli animali cresciuti nelle moderne forme mostruose di allevamento 
 
-<figure><a href="https://lh3.googleusercontent.com/Ob8Aro2L_gqgH-2I-Hd5b72mtFnihBYFh4Grj_ZBfFAHEeIwMxeSO6580e0mXlrGC-73IJJgyeNevX_8yrxrEwYNVTodo-rCY7ofiIPoVsEjz82WsNASz7bKkm6-GMyts-DTBahp"><img src="https://lh3.googleusercontent.com/Ob8Aro2L_gqgH-2I-Hd5b72mtFnihBYFh4Grj_ZBfFAHEeIwMxeSO6580e0mXlrGC-73IJJgyeNevX_8yrxrEwYNVTodo-rCY7ofiIPoVsEjz82WsNASz7bKkm6-GMyts-DTBahp" alt="polli.jpg" loading="lazy"></a></figure>
+<figure><a href="/images/un-hacker-di-nome-caino-2.jpg"><img src="/images/un-hacker-di-nome-caino-2.jpg" alt="polli.jpg" loading="lazy"></a></figure>
 
 Il più recente passo in questa direzione è la rivoluzione digitale che stiamo vivendo oggi. Dopo gli alimenti e i manufatti, stiamo passando al controllo massivo della produzione di informazioni e sapere, con i social network, i big data e l’intelligenza artificiale. 
 

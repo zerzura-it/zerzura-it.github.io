@@ -19,4 +19,4 @@ All'inizio di ogni tanda gli uomini invitano a ballare le donne mischiandosi spe
 
 Si respira una libertà sconfinata, l'essere gioioso di una forma-di-vita che si va perdendo, che è già irrimediabilmente perduta, e che proprio per questo sfugge insolente ad ogni dispositivo di potere.
 
-<figure><a href="https://lh6.googleusercontent.com/x7otvn8h2PTp4gL8z2orsEvLvGFRkGF2UeqjdTmd-gmxAtfWMsUlLB9gIVsqhMtERZErECjMyZzNbHC70aq23SE2RgbWxIjYG16SAKnodaSrZKYyIH7l-jO-JKORxQITu2HqtySO5rxk-lPBQtZpxvo=w320-h180"><img src="https://lh6.googleusercontent.com/x7otvn8h2PTp4gL8z2orsEvLvGFRkGF2UeqjdTmd-gmxAtfWMsUlLB9gIVsqhMtERZErECjMyZzNbHC70aq23SE2RgbWxIjYG16SAKnodaSrZKYyIH7l-jO-JKORxQITu2HqtySO5rxk-lPBQtZpxvo=w320-h180" alt="" loading="lazy"></a></figure>
+<figure><a href="/images/milonga-cafe-dominguez-1.png"><img src="/images/milonga-cafe-dominguez-1.png" alt="" loading="lazy"></a></figure>

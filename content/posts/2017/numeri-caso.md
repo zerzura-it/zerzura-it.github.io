@@ -9,7 +9,7 @@ tags: ["Nuvole"]
 
 Esiste [un libro](https://en.wikipedia.org/wiki/A_Million_Random_Digits_with_100,000_Normal_Deviates), di valore storico per alcuni [esperti](https://www.schneier.com/blog/archives/2006/10/a_million_rando.html) di crittografia, pubblicato per la prima volta nel 1955. Oggi è reperibile una ristampa e su Amazon si trovano più di 600 [commenti](https://www.amazon.com/product-reviews/0833030477) esilaranti dei lettori. A sfogliarlo sembra una cosa assurda, o l'invenzione di un racconto di Borges, poiché contiene un milione di numeri casuali: 400 pagine con 50 righe e per ogni riga 50 numeri (ognuno di 5 cifre).
 
-<figure><a href="https://lh3.googleusercontent.com/enlZZmRnp2FAl-88OdkK8zLdy10XO71CkAtRMuhv2qec5NbQZpBa8sWCuPro-KdScXQJMzKRjylXe1Bm39KuIHORgvlbcroNFfffpeuS5CEeDhxuUf9az7PhjSb7XoP2xgiW1uiL"><img src="https://lh3.googleusercontent.com/enlZZmRnp2FAl-88OdkK8zLdy10XO71CkAtRMuhv2qec5NbQZpBa8sWCuPro-KdScXQJMzKRjylXe1Bm39KuIHORgvlbcroNFfffpeuS5CEeDhxuUf9az7PhjSb7XoP2xgiW1uiL" alt="" loading="lazy"></a><figcaption>Fonte: <a href="https://www.wired.com/2012/08/st_randomnumbergenerators/">Wired</a></figcaption></figure>
+<figure><a href="/images/numeri-caso-1.png"><img src="/images/numeri-caso-1.png" alt="" loading="lazy"></a><figcaption>Fonte: <a href="https://www.wired.com/2012/08/st_randomnumbergenerators/">Wired</a></figcaption></figure>
 
 Per quanto possa sembrare strano, non è così facile generare in modo meccanico lunghe sequenze di numeri casuali. Per capire questo paradosso basta considerare il fatto che un computer, come quasi ogni meccanismo costruito dall’uomo, è progettato solitamente per avere un comportamento rigidamente deterministico, secondo una logica, quindi prevedibile.
 
@@ -21,7 +21,7 @@ Il sito dell'editore contiene una [pagina](https://www.rand.org/pubs/monograph_r
 
 Il problema è stato risolto anni dopo attingendo all'ambiente segnali e disturbi generati nel mondo fisico, usati come fonte di casualità attendibile. Esistono dei servizi gratuiti per tutta la comunità informatica, basati su questo metodo e offerti via internet. Quello di RANDOM.ORG, inizialmente realizzato presso il Trinity College di Dublino e oggi erogato da una azienda privata, impiega dei [ricevitori radio](https://www.random.org/faq/#Q1.4) per catturare il rumore atmosferico, che viene quindi usato per generare numeri casuali: in pratica le radio sono sintonizzate sulla posizione tra le stazioni, dove comunemente sentiamo un fruscio. Un servizio analogo è quello di [HotBits](https://www.fourmilab.ch/hotbits/) che si basa invece sul decadimento radioattivo.
 
-<figure><a href="https://lh3.googleusercontent.com/kvEEpWDVd6USM7v2RYEnp5UCmTtSTEGGO13PWgivaMOeLWQMe5hP80ILefJ12aDB11k6uOiDdLc81R46xqREyyhV9izw_xc34c02m63Rq8wxjdNHJ8X01axWJ1mLTOqE5znt_NnZ"><img src="https://lh3.googleusercontent.com/kvEEpWDVd6USM7v2RYEnp5UCmTtSTEGGO13PWgivaMOeLWQMe5hP80ILefJ12aDB11k6uOiDdLc81R46xqREyyhV9izw_xc34c02m63Rq8wxjdNHJ8X01axWJ1mLTOqE5znt_NnZ" alt="" loading="lazy"></a><figcaption>Fonte: <a href="http://random.org/">Random.org</a></figcaption></figure>
+<figure><a href="/images/numeri-caso-2.png"><img src="/images/numeri-caso-2.png" alt="" loading="lazy"></a><figcaption>Fonte: <a href="http://random.org/">Random.org</a></figcaption></figure>
 
 Il libro contiene anche delle istruzioni esposte con il tipico linguaggio formale della scienza, ma curiosamente sembrano evocare quelle di un antico incantesimo.
 
@@ -36,4 +36,4 @@ Oppure, considerato che i numeri irrazionali sono infiniti, supponiamo che un ma
 
 Supponiamo infine che un giorno un matematico dimostri essere vera la congettura seguente: data una qualsiasi sequenza di numeri ritenuta casuale, esiste almeno un numero irrazionale le cui prime cifre decimali replicano quella sequenza. Questa non sarebbe forse la dimostrazione matematica del fatto che [il caso non esiste](/2016/05/il-caso-non-esiste.html)?
 
-<figure><a href="https://lh5.googleusercontent.com/fejBmKkvDet0RcbwAdF82WEI2gDZG3Bpo426HYEP_2E1nCS_r3fGJX2ZAzmOMzttMvzXOK3pMfOVmOgaaDtQTOjNHubn2hsc21wHAAPS9PdkJ70xCUizLo1d782eEGQGx25lP_3N"><img src="https://lh5.googleusercontent.com/fejBmKkvDet0RcbwAdF82WEI2gDZG3Bpo426HYEP_2E1nCS_r3fGJX2ZAzmOMzttMvzXOK3pMfOVmOgaaDtQTOjNHubn2hsc21wHAAPS9PdkJ70xCUizLo1d782eEGQGx25lP_3N" alt="" loading="lazy"></a><figcaption>Fonte: <a href="http://dilbert.com/strip/2001-10-25">Dilbert</a></figcaption></figure>
+<figure><a href="/images/numeri-caso-3.png"><img src="/images/numeri-caso-3.png" alt="" loading="lazy"></a><figcaption>Fonte: <a href="http://dilbert.com/strip/2001-10-25">Dilbert</a></figcaption></figure>

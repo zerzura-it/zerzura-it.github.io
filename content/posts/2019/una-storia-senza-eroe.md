@@ -13,7 +13,7 @@ In effetti non c’è un personaggio che si possa considerare il vero protagonis
 
 Abramo, Giacobbe, Mosè, Davide, Isaia, tutti appaiono e ad un certo punto escono di scena senza che ciò determini una conclusione del racconto. È come se in modo implicito anche il lettore sia invitato a fare la sua comparsa, per il tempo della propria vita, nel palcoscenico del mondo.
 
-<figure><a href="https://lh3.googleusercontent.com/HIFsuTeGwGCPps71uqH4Bkt0OWeSRvw-V5f0McmLS9oOKnWJZEpmr3U4vri6-DHbb1nwNjeYxnX1T5nfRE5qotmFIU2FXiAzr0cWhq5lnHT7SnaHS9QwoO5Jil7Hg77qoIZxkfZSpY3OVbjUfAyrSA=w400-h213"><img src="https://lh3.googleusercontent.com/HIFsuTeGwGCPps71uqH4Bkt0OWeSRvw-V5f0McmLS9oOKnWJZEpmr3U4vri6-DHbb1nwNjeYxnX1T5nfRE5qotmFIU2FXiAzr0cWhq5lnHT7SnaHS9QwoO5Jil7Hg77qoIZxkfZSpY3OVbjUfAyrSA=w400-h213" alt="Particolare del Sacrificio di Isacco (Caravaggio)" loading="lazy"></a><figcaption>Particolare del Sacrificio di Isacco (Caravaggio)</figcaption></figure>
+<figure><a href="/images/una-storia-senza-eroe-1.png"><img src="/images/una-storia-senza-eroe-1.png" alt="Particolare del Sacrificio di Isacco (Caravaggio)" loading="lazy"></a><figcaption>Particolare del Sacrificio di Isacco (Caravaggio)</figcaption></figure>
 
 Questo invito è troppo impegnativo per la maggioranza delle persone. Essere ebrei è quindi un destino per una minoranza: un’elezione o una condanna, o forse entrambe le cose.
 

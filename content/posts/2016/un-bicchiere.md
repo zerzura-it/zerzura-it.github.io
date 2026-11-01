@@ -9,7 +9,7 @@ tags: ["Nuvole"]
 
 Sembra esserci un legame sotterraneo tra le varie dipendenze, per cui taluni sostengono che non se ne può guarire: al più se ne sostituisce una con un'altra. Mi è tornato in mente questo pensiero vedendo la foto scattata da un’amica in un Bar di Bologna. E nel riflettervi mi ha assalito come una visione, con una prospettiva più vasta.
 
-<figure><a href="https://lh3.googleusercontent.com/UI5LXMOLp1nB34Gpl7akU05xT9wWoSUfpaA4MUw0bZ5EO8hgofIpfGhbPBVlWTzzxTR_kl6XBMwQEtcMHbXhSKdhOcHXSPH0q3GiFr35pVfvXtwJNKIWeQyYpGVVJyqWWw2cuyKS"><img src="https://lh3.googleusercontent.com/UI5LXMOLp1nB34Gpl7akU05xT9wWoSUfpaA4MUw0bZ5EO8hgofIpfGhbPBVlWTzzxTR_kl6XBMwQEtcMHbXhSKdhOcHXSPH0q3GiFr35pVfvXtwJNKIWeQyYpGVVJyqWWw2cuyKS" alt="" loading="lazy"></a><figcaption><a href="https://vincenzocostantinochinaski.it/2015/11/11/il-bar-2/">Poesia di Vincenzo Costantino Cinaski</a></figcaption></figure>
+<figure><a href="/images/un-bicchiere-1.png"><img src="/images/un-bicchiere-1.png" alt="" loading="lazy"></a><figcaption><a href="https://vincenzocostantinochinaski.it/2015/11/11/il-bar-2/">Poesia di Vincenzo Costantino Cinaski</a></figcaption></figure>
 
 Ho come la sensazione che tutti debbano aver sperimentato talvolta, fin da piccoli, un senso di straniamento, la sensazione che in questa vita ci sia qualcosa di sbagliato. Ad un certo punto però sorge il dubbio che semplicemente si viva in modo innaturale: l'uomo forse ha costruito un sistema di vita, la cosiddetta civiltà, che è profondamente lontano dalla condizione d'origine. E sembra esserlo in moltissimi aspetti: a partire dai più elementari come il tempo, il ritmo di vita, i luoghi e gli spazi, il cibo. Perciò forse il nostro corpo, il nostro istinto animale , se ne accorgono e ce lo rimproverano.
 

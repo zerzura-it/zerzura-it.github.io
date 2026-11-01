@@ -25,4 +25,4 @@ In entrambi i casi sotto la maschera si intravede lo stesso identico odio per la
 Castel di Tusa, 22 agosto 2020
 {.destra}
 
-<figure><a href="https://lh4.googleusercontent.com/bsecbvm5EmutKh9T9IBDj5RKx6fYhR1SLoZ3Mna2aXgY_2g4btdnEIc7VKqKw41SYhx_j0mRk8i91jHwUg4LdhFB24rcjsxZG8kYfg5i41RezYUahJBDYi6WkpY24QchIuM5rReEC0RXqego4yXvyTE=w400-h391"><img src="https://lh4.googleusercontent.com/bsecbvm5EmutKh9T9IBDj5RKx6fYhR1SLoZ3Mna2aXgY_2g4btdnEIc7VKqKw41SYhx_j0mRk8i91jHwUg4LdhFB24rcjsxZG8kYfg5i41RezYUahJBDYi6WkpY24QchIuM5rReEC0RXqego4yXvyTE=w400-h391" alt="Cristo davanti a Caifa, Giotto 1305" loading="lazy"></a><figcaption>Cristo davanti a Caifa, Giotto 1305</figcaption></figure>
+<figure><a href="/images/liberta-e-tradizione-1.jpg"><img src="/images/liberta-e-tradizione-1.jpg" alt="Cristo davanti a Caifa, Giotto 1305" loading="lazy"></a><figcaption>Cristo davanti a Caifa, Giotto 1305</figcaption></figure>
