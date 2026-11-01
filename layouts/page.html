@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ partial "post.html" . }}
+  {{ if eq .Section "posts" }}
+    <nav class="paginazione" aria-label="Altri post">
+      {{ with .NextInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+      {{ with .PrevInSection }}<a class="dopo" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+    </nav>
+  {{ end }}
+{{ end }}

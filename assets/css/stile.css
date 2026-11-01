@@ -1,0 +1,137 @@
+:root {
+  --carta: #fbfaf7;
+  --inchiostro: #24221f;
+  --tenue: #6b665e;
+  --linea: #e3dfd6;
+  --accento: #2f5f8f;
+  --accento-scuro: #1f4466;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --carta: #1b1a18;
+    --inchiostro: #e8e4dc;
+    --tenue: #a39d92;
+    --linea: #37342f;
+    --accento: #8ab4de;
+    --accento-scuro: #b5d0ec;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--carta);
+  color: var(--inchiostro);
+  font: 1.1rem/1.7 var(--serif);
+}
+a { color: var(--accento); text-underline-offset: 0.15em; }
+a:hover { color: var(--accento-scuro); }
+
+/* testata con le nuvole */
+.testata {
+  background: #3d6fa8 url("/images/zerzura-testata.jpg") center / cover no-repeat;
+  min-height: 220px;
+  display: flex;
+  align-items: flex-end;
+}
+.testata a {
+  display: block;
+  width: 100%;
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+}
+.testata .titolo { display: block; font-size: clamp(2.4rem, 7vw, 3.6rem); line-height: 1.1; letter-spacing: 0.02em; }
+.testata .motto { display: block; font-style: italic; font-size: 1.1rem; margin-top: 0.3rem; }
+
+.menu {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.4rem;
+  font: 0.95rem/1.4 var(--sans);
+  border-bottom: 1px solid var(--linea);
+}
+.menu a { text-decoration: none; color: var(--tenue); }
+.menu a:hover, .menu a[aria-current] { color: var(--inchiostro); }
+
+.contenitore {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15rem;
+  gap: 3.5rem;
+}
+@media (max-width: 52rem) {
+  .contenitore { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+}
+main { max-width: 42rem; }
+
+/* post */
+.post { margin-bottom: 3.5rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--linea); }
+.post:last-of-type { border-bottom: 0; }
+.data { margin: 0; font: 0.8rem/1.4 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: var(--tenue); }
+.titolo-post { font-size: 1.9rem; line-height: 1.25; font-weight: normal; margin: 0.3rem 0 1.2rem; }
+.titolo-post a { color: inherit; text-decoration: none; }
+.titolo-post a:hover { color: var(--accento); }
+.info { font: 0.85rem/1.5 var(--sans); color: var(--tenue); margin-top: 1.5rem; }
+
+.testo p { margin: 0 0 1.1em; }
+.testo h3, .testo h4 { font-weight: normal; line-height: 1.3; margin: 1.8em 0 0.6em; }
+.testo h3 { font-size: 1.4rem; }
+.testo h4 { font-size: 1.15rem; font-style: italic; }
+.testo blockquote {
+  margin: 1.2em 0;
+  padding: 0 0 0 1.2em;
+  border-left: 3px solid var(--linea);
+  font-style: italic;
+}
+.testo blockquote blockquote { border: 0; padding: 0; margin: 0; }
+.testo .destra { text-align: right; font-style: italic; color: var(--tenue); }
+.testo img { max-width: 100%; height: auto; }
+.testo figure { margin: 2em auto; text-align: center; }
+.testo figure img { max-height: 32rem; width: auto; border-radius: 2px; }
+.testo figcaption { font: 0.85rem/1.5 var(--sans); color: var(--tenue); margin-top: 0.5rem; }
+.testo iframe, .testo video { max-width: 100%; }
+.testo table { border-collapse: collapse; margin: 1.5em 0; }
+.testo td, .testo th { border: 1px solid var(--linea); padding: 0.3em 0.6em; }
+.testo hr { border: 0; border-top: 1px solid var(--linea); margin: 2em 0; }
+
+.paginazione { display: flex; justify-content: space-between; gap: 1rem; font: 0.95rem/1.4 var(--sans); }
+.paginazione .dopo { margin-left: auto; text-align: right; }
+.avviso { font: 0.95rem/1.4 var(--sans); color: var(--tenue); padding: 0.6rem 0.9rem; border: 1px solid var(--linea); border-radius: 4px; }
+
+/* barra laterale */
+.barra { font: 0.92rem/1.5 var(--sans); }
+.barra h2 { font: 600 0.75rem/1.4 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--tenue); margin: 0 0 0.6rem; }
+.barra section { margin-bottom: 2rem; }
+.barra ul { list-style: none; margin: 0; padding: 0; }
+.barra li { margin: 0.2rem 0; }
+.barra a { text-decoration: none; }
+.barra a:hover { text-decoration: underline; }
+.barra summary { cursor: pointer; }
+.barra .mese { margin-left: 1rem; }
+.barra .mese ul { margin: 0.2rem 0 0.4rem 1rem; }
+.conta { color: var(--tenue); }
+
+.elenco { padding-left: 1.2rem; }
+.elenco time { color: var(--tenue); font: 0.85rem var(--sans); margin-right: 0.4rem; }
+.archivio h2 { font-weight: normal; font-size: 1.4rem; margin: 1.6rem 0 0.4rem; }
+
+.piede {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  border-top: 1px solid var(--linea);
+  font: 0.85rem/1.5 var(--sans);
+  color: var(--tenue);
+}

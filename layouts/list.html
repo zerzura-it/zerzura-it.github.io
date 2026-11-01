@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <h1 class="titolo-post">{{ .Title }}</h1>
+  <ul class="elenco">
+    {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Pages }} <span class="conta">({{ len . }})</span>{{ end }}</li>
+    {{ end }}
+  </ul>
+{{ end }}

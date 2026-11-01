@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ $pag := .Paginate (where site.RegularPages "Section" "posts") }}
+  {{ range $pag.Pages }}
+    {{ partial "post.html" . }}
+  {{ end }}
+  <nav class="paginazione" aria-label="Altre pagine">
+    {{ with $pag.Prev }}<a href="{{ .URL }}">← Post più recenti</a>{{ end }}
+    {{ with $pag.Next }}<a class="dopo" href="{{ .URL }}">Post più vecchi →</a>{{ end }}
+  </nav>
+{{ end }}

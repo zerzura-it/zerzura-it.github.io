@@ -1,0 +1,20 @@
+{{- /* Un post: titolo, data, contenuto e piè di pagina. Parametro: la pagina */ -}}
+<article class="post">
+  <p class="data"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time></p>
+  {{ if .IsPage }}
+    <h1 class="titolo-post">{{ .Title }}</h1>
+  {{ else }}
+    <h2 class="titolo-post"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  {{ end }}
+  <div class="testo">
+    {{ .Content }}
+  </div>
+  {{ if eq .Section "posts" }}
+    <p class="info">
+      Pubblicato da {{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}
+      {{ with .GetTerms "tags" }} · Etichette:
+        {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
+      {{ end }}
+    </p>
+  {{ end }}
+</article>

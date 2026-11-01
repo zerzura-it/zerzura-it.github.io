@@ -1,0 +1,36 @@
+<aside class="barra">
+  <section>
+    <h2>Etichette</h2>
+    <ul class="etichette">
+      {{ range site.Taxonomies.tags.Alphabetical }}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span class="conta">({{ .Count }})</span></li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Archivio blog</h2>
+    {{ $post := where site.RegularPages "Section" "posts" }}
+    {{ range $i, $anno := $post.GroupByDate "2006" }}
+      <details class="anno"{{ if eq $i 0 }} open{{ end }}>
+        <summary>{{ .Key }} <span class="conta">({{ len .Pages }})</span></summary>
+        {{ range .Pages.GroupByDate "January" }}
+          <details class="mese">
+            <summary>{{ .Key | lower }} <span class="conta">({{ len .Pages }})</span></summary>
+            <ul>
+              {{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+            </ul>
+          </details>
+        {{ end }}
+      </details>
+    {{ end }}
+  </section>
+
+  <section>
+    <h2>Seguimi</h2>
+    <ul>
+      {{ with site.Home.OutputFormats.Get "rss" }}<li><a href="{{ .RelPermalink }}">Feed dei post (RSS)</a></li>{{ end }}
+      {{ with site.Params.aboutme }}<li><a href="{{ . }}">about.me</a></li>{{ end }}
+    </ul>
+  </section>
+</aside>

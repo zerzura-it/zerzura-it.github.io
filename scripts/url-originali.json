@@ -1,0 +1,331 @@
+[
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2013/05/ascoltare-e-di-piu-che-obbedire.html",
+  "titolo": "Ascoltare è di più che obbedire",
+  "file": "content/posts/2013/ascoltare-e-di-piu-che-obbedire.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/11/superumani.html",
+  "titolo": "Superumani",
+  "file": "content/posts/2016/superumani.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2017/02/sogno.html",
+  "titolo": "Sogno",
+  "file": "content/posts/2017/sogno.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/04/un-bicchiere.html",
+  "titolo": "Un bicchiere",
+  "file": "content/posts/2016/un-bicchiere.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/08/vite-immaginarie.html",
+  "titolo": "Vite immaginarie",
+  "file": "content/posts/2023/vite-immaginarie.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2019/04/una-storia-senza-eroe.html",
+  "titolo": "Una storia senza eroe",
+  "file": "content/posts/2019/una-storia-senza-eroe.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2013/05/prima-fare-e-poi-ascoltare.html",
+  "titolo": "Prima fare e poi ascoltare",
+  "file": "content/posts/2013/prima-fare-e-poi-ascoltare.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/05/il-corpo-e-la-macchina.html",
+  "titolo": "Il corpo e la macchina",
+  "file": "content/posts/2016/il-corpo-e-la-macchina.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2017/01/il-tetralemma-e-il-talmud.html",
+  "titolo": "Il Tetralemma e il Talmud",
+  "file": "content/posts/2017/il-tetralemma-e-il-talmud.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2014/11/i-volti-del-signore_5.html",
+  "titolo": "I volti del Signore",
+  "file": "content/posts/2014/i-volti-del-signore_5.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/04/radici-in-cielo.html",
+  "titolo": "Radici in cielo",
+  "file": "content/posts/2023/radici-in-cielo.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/10/venga-il-tuo-regno.html",
+  "titolo": "Venga il tuo Regno",
+  "file": "content/posts/2023/venga-il-tuo-regno.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2018/01/fu-nel-parco-di-un-manicomio-che.html",
+  "titolo": "Manicomio",
+  "file": "content/posts/2018/fu-nel-parco-di-un-manicomio-che.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2013/06/una-bella-pretesa.html",
+  "titolo": "Una bella pretesa",
+  "file": "content/posts/2013/una-bella-pretesa.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2019/01/clara.html",
+  "titolo": "Clara",
+  "file": "content/posts/2019/clara.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/08/pregarsi.html",
+  "titolo": "Pregarsi",
+  "file": "content/posts/2016/pregarsi.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/09/e-cosi.html",
+  "titolo": "È così",
+  "file": "content/posts/2023/e-cosi.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2017/01/bianchi-e-neri.html",
+  "titolo": "Bianchi e neri",
+  "file": "content/posts/2017/bianchi-e-neri.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2018/03/la-morte-de-nomo.html",
+  "titolo": "La morte de n'omo",
+  "file": "content/posts/2018/la-morte-de-nomo.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2013/05/prima-ascoltare-e-poi-fare.html",
+  "titolo": "Prima ascoltare e poi fare",
+  "file": "content/posts/2013/prima-ascoltare-e-poi-fare.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2013/06/sentire-e-di-piu-che-ascoltare.html",
+  "titolo": "Sentire è di più che ascoltare",
+  "file": "content/posts/2013/sentire-e-di-piu-che-ascoltare.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2013/11/la-preghiera-del-signore_14.html",
+  "titolo": "La Preghiera del Signore",
+  "file": "content/posts/2013/la-preghiera-del-signore_14.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/04/una-lettera-sacra.html",
+  "titolo": "Una lettera sacra",
+  "file": "content/posts/2016/una-lettera-sacra.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/07/queste-grandi-costruzioni-non-rimarra.html",
+  "titolo": "Pietre",
+  "file": "content/posts/2023/queste-grandi-costruzioni-non-rimarra.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2017/10/la-nuova-alleanza.html",
+  "titolo": "La Nuova Alleanza",
+  "file": "content/posts/2017/la-nuova-alleanza.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2013/07/un-cuore-che-interpreta.html",
+  "titolo": "Un cuore che interpreta",
+  "file": "content/posts/2013/un-cuore-che-interpreta.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2018/04/entropia-e-significato.html",
+  "titolo": "Entropia e significato",
+  "file": "content/posts/2018/entropia-e-significato.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/08/liberta-e-tradizione.html",
+  "titolo": "Libertà e tradizione",
+  "file": "content/posts/2023/liberta-e-tradizione.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/10/poveri-di-spirito.html",
+  "titolo": "Poveri di spirito",
+  "file": "content/posts/2016/poveri-di-spirito.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/02/il-corpo-e-il-marmo.html",
+  "titolo": "Il corpo e il marmo",
+  "file": "content/posts/2016/il-corpo-e-il-marmo.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/11/cristiani.html",
+  "titolo": "Cristiani",
+  "file": "content/posts/2016/cristiani.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2024/04/contare-e-raccontare.html",
+  "titolo": "Contare e raccontare",
+  "file": "content/posts/2024/contare-e-raccontare.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/10/pressurizzati.html",
+  "titolo": "Pressurizzàti",
+  "file": "content/posts/2016/pressurizzati.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2017/06/un-hacker-di-nome-caino.html",
+  "titolo": "Un hacker di nome Caino",
+  "file": "content/posts/2017/un-hacker-di-nome-caino.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2014/03/sono-stato-folgorato-da-una-tua.html",
+  "titolo": "Il sogno di una cosa",
+  "file": "content/posts/2014/sono-stato-folgorato-da-una-tua.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2017/11/ognissanti.html",
+  "titolo": "Ognissanti",
+  "file": "content/posts/2017/ognissanti.md"
+ },
+ {
+  "tipo": "PAGE",
+  "stato": "LIVE",
+  "url": "/p/blog-page.html",
+  "titolo": "Nuvole",
+  "file": "content/pagine/blog-page.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2024/05/lenigma.html",
+  "titolo": "L'enigma",
+  "file": "content/posts/2024/lenigma.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2016/05/il-caso-non-esiste.html",
+  "titolo": "Il caso non esiste",
+  "file": "content/posts/2016/il-caso-non-esiste.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2018/11/liberta.html",
+  "titolo": "Un'idea di libertà",
+  "file": "content/posts/2018/liberta.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2024/02/biopolitica-e-clero.html",
+  "titolo": "Biopolitica e clero",
+  "file": "content/posts/2024/biopolitica-e-clero.md"
+ },
+ {
+  "tipo": "PAGE",
+  "stato": "DRAFT",
+  "url": "/p/paolo-de-benedetti-introduzione-al.html",
+  "titolo": "Stelle",
+  "file": "content/pagine/paolo-de-benedetti-introduzione-al.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2018/12/per-mezzo-dei-profeti.html",
+  "titolo": "Per mezzo dei Profeti",
+  "file": "content/posts/2018/per-mezzo-dei-profeti.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2017/12/numeri-caso.html",
+  "titolo": "Numeri a caso",
+  "file": "content/posts/2017/numeri-caso.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/08/dormida.html",
+  "titolo": "Dormida",
+  "file": "content/posts/2023/dormida.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/05/milonga-cafe-dominguez.html",
+  "titolo": "Milonga \"Cafè Dominguez\"",
+  "file": "content/posts/2023/milonga-cafe-dominguez.md"
+ },
+ {
+  "tipo": "POST",
+  "stato": "LIVE",
+  "url": "/2023/04/taiten.html",
+  "titolo": "Taiten",
+  "file": "content/posts/2023/taiten.md"
+ }
+]
