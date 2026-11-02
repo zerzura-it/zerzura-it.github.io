@@ -1,9 +1,20 @@
 {{ define "main" }}
   {{ partial "post.html" . }}
   {{ if eq .Section "posts" }}
+    {{/* Post in ordine cronologico: a sinistra il precedente (più vecchio), a destra il successivo */}}
+    {{ $post := (where site.RegularPages "Section" "posts").ByDate }}
+    {{ $prima := slice }}{{ $dopo := slice }}
+    {{ range $post }}
+      {{ if .Date.Before $.Date }}{{ $prima = $prima | append . }}{{ end }}
+      {{ if .Date.After $.Date }}{{ $dopo = $dopo | append . }}{{ end }}
+    {{ end }}
     <nav class="paginazione" aria-label="Altri post">
-      {{ with .NextInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
-      {{ with .PrevInSection }}<a class="dopo" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+      {{ with last 1 $prima }}{{ with index . 0 }}
+        <a href="{{ .RelPermalink }}"><span class="dir">← Post precedente</span>{{ .Title }}</a>
+      {{ end }}{{ end }}
+      {{ with first 1 $dopo }}{{ with index . 0 }}
+        <a class="dopo" href="{{ .RelPermalink }}"><span class="dir">Post successivo →</span>{{ .Title }}</a>
+      {{ end }}{{ end }}
     </nav>
   {{ end }}
 {{ end }}
