@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # riparte anche dopo lo scaricamento delle immagini (i commit fatti dalle Action non lo farebbero da soli)
   workflow_run:
-    workflows: ["Scarica le immagini rimaste su Blogger"]
+    workflows: ["Scarica le immagini rimaste su Blogger", "Controlla i link esterni"]
     types: [completed]
 
 permissions:

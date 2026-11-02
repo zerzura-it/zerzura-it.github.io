@@ -1,0 +1,34 @@
+# Da lanciare a mano: Actions → "Controlla i link esterni" → Run workflow
+name: Controlla i link esterni
+
+on:
+  workflow_dispatch:
+    inputs:
+      sostituisci:
+        description: "Sostituisci i link rotti con la copia su archive.org (altrimenti solo rapporto)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  controlla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Controlla i link
+        run: |
+          python3 scripts/link_rotti.py ${{ inputs.sostituisci && '--sostituisci' || '' }}
+          cat scripts/rapporto-link.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Salva le modifiche
+        if: ${{ inputs.sostituisci }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content scripts/rapporto-link.md
+          git diff --cached --quiet && echo "Niente da salvare" || git commit -m "Sostituisce i link rotti con le copie su archive.org"
+          git push
