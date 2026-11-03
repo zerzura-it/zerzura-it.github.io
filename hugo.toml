@@ -10,7 +10,7 @@ enableRobotsTXT = true
 [params]
   description = "un viaggio, una ricerca, una avventura"
   author = "Emanuele"
-  aboutme = "http://about.me/emanuelecisbani"
+  # aboutme = "http://about.me/emanuelecisbani"
 
 [pagination]
   pagerSize = 7
