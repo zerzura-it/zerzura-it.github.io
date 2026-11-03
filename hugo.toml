@@ -58,14 +58,18 @@ enableRobotsTXT = true
     pageRef = "/"
     weight = 1
   [[menus.main]]
-    name = "Nuvole"
-    url = "/p/blog-page.html"
+    name = "Darash"
+    url = "/2013/06/una-bella-pretesa.html"
     weight = 2
   [[menus.main]]
-    name = "Una bella pretesa"
-    url = "/2013/06/una-bella-pretesa.html"
+    name = "Nuvole"
+    url = "/p/blog-page.html"
     weight = 3
+  [[menus.main]]
+    name = "Stelle"
+    url = "/p/stelle.html"
+    weight = 4
   [[menus.main]]
     name = "Archivio"
     url = "/archivio/"
-    weight = 4
+    weight = 5
