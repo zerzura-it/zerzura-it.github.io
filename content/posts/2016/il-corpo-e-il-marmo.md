@@ -9,7 +9,7 @@ tags: ["Nuvole"]
 
 <figure><a href="/images/il-corpo-e-il-marmo-1.jpg"><img src="/images/il-corpo-e-il-marmo-1.jpg" alt="" loading="lazy"></a></figure>
 
-Questa immagine è inquietante. Nonostante [le clausole legali](http://www.bodyworldsinthecity.it/faq/) che quella persona possa aver letto e sottoscritto. Si tratta di un corpo umano trattato con la tecnica della plastinazione, esposto alla mostra itinerante Body Worlds.
+Questa immagine è inquietante. Nonostante [le clausole legali](https://web.archive.org/web/20160205081633/http://www.bodyworldsinthecity.it/faq/) che quella persona possa aver letto e sottoscritto. Si tratta di un corpo umano trattato con la tecnica della plastinazione, esposto alla mostra itinerante Body Worlds.
 
 La questione mi ha fatto riflettere sul tema dell'arte e del corpo e mi sono tornate in mente le sculture di Michelangelo. 
 

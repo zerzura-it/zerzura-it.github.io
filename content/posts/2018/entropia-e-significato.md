@@ -15,7 +15,7 @@ Secondo la teoria della complessità di Andrej Nikolaevič Kolmogorov si può so
 
 Questo significa in parole povere che, come non si riesce a dimostrare in modo diretto che qualcosa è impossibile, così non possiamo mai sapere con certezza se esiste un modo di “comprimere” una sequenza che riteniamo essere casuale. Nel momento in cui qualcuno scoprisse il modo di comprimerla, tale sequenza cesserebbe di esserlo.
 
-La questione ebbe origine con Claude Elwood Shannon padre della [teoria matematica dell’informazione](http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf), che pensò di misurar quest'ultima come entropia negativa, ovvero l’opposto della casualità. In breve una sequenza di segni casuale è caratterizzata da un alto livello di entropia, mentre un messaggio contenente informazione presenta un basso livello di entropia.
+La questione ebbe origine con Claude Elwood Shannon padre della [teoria matematica dell’informazione](https://web.archive.org/web/20180329003105/http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf), che pensò di misurar quest'ultima come entropia negativa, ovvero l’opposto della casualità. In breve una sequenza di segni casuale è caratterizzata da un alto livello di entropia, mentre un messaggio contenente informazione presenta un basso livello di entropia.
 
 <figure><a href="/images/ClaudeShannon_MFO3807.jpg"><img src="/images/ClaudeShannon_MFO3807.jpg" alt="" loading="lazy"></a><figcaption><a href="https://it.wikipedia.org/wiki/Claude_Shannon">Claude Elwood Shannon</a></figcaption></figure>
 

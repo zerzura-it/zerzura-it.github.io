@@ -11,7 +11,7 @@ tags: ["Nuvole"]
 
 Il tatuaggio è una pratica che presuppone una relazione ben precisa con il proprio corpo. Il corpo infatti può essere visto come involucro, abito, oggetto, strumento espressivo, status symbol. Estremizzando questa posizione, non *sei* più il tuo corpo, ma lo abiti e lo manipoli. Non a caso la pratica del tatuaggio viene anche assimilata al piercing tra le tante espressioni della Body Modification, un movimento culturale che esiste ormai da decenni.
 
-Nella Body Modification si manifesta anche una certa nostalgia tribale per un passato lontano, il desiderio di recuperare il primitivismo. In modo analogo ma quasi speculare si posiziona invece il movimento intellettuale del Transumanismo, una filosofia futurista che tende a modificare il corpo (e la mente) dell’uomo grazie all’uso della tecnologia, per potenziarlo e superarne i limiti. Alcuni avventurosi arrivano così a [impiantarsi circuiti elettronici nella carne](http://motherboard.vice.com/blog/the-diy-cyborg).
+Nella Body Modification si manifesta anche una certa nostalgia tribale per un passato lontano, il desiderio di recuperare il primitivismo. In modo analogo ma quasi speculare si posiziona invece il movimento intellettuale del Transumanismo, una filosofia futurista che tende a modificare il corpo (e la mente) dell’uomo grazie all’uso della tecnologia, per potenziarlo e superarne i limiti. Alcuni avventurosi arrivano così a [impiantarsi circuiti elettronici nella carne](https://web.archive.org/web/20160611051533/http://motherboard.vice.com/blog/the-diy-cyborg).
 
 Vedere il proprio corpo come una tela su cui dipingere o un oggetto da manipolare, può sembrare una questione soggettiva, una legittima libertà che l’individuo moderno si arroga per disporre di sé come meglio crede. Tuttavia secondo la scienza un corpo vivente si distingue da un oggetto inanimato, per il fatto che [la sua forma è endogena](https://www.amazon.it/caso-necessit%C3%A0-Jacques-Monod/dp/880449607X?ie=UTF8&*Version*=1&*entries*=0), viene cioè determinata dal suo interno. Per contro gli oggetti inanimati e gli artefatti sono plasmati da azioni esterne, umane o naturali. Qualsiasi azione di manipolazione dall'esterno del corpo presenta quindi oggettivamente i caratteri di una riduzione del vivente a un mero ente.
 
@@ -19,8 +19,8 @@ Un atto di trasformazione impressa dall'esterno implica un superamento e una man
 
 Seppure queste pratiche possano quindi apparire come una manipolazione violenta del corpo, va riconosciuto che talvolta si presentano nella luce incantevole delle opere d'arte, di modo che in questa tensione tra abuso e espressione si schiuda il fascino di una profonda provocazione.
 
-<figure><a href="/images/LaMettrie00286.jpg"><img src="/images/LaMettrie00286.jpg" alt="" loading="lazy"></a><figcaption><a href="http://bibliothek.bbaw.de/quellendigital/lamettrie/metr_hommplante_fr_1748/index.html">Source: Akademie </a><br/>
-<a href="http://bibliothek.bbaw.de/quellendigital/lamettrie/metr_hommplante_fr_1748/index.html">der Wissenschaften</a></figcaption></figure>
+<figure><a href="/images/LaMettrie00286.jpg"><img src="/images/LaMettrie00286.jpg" alt="" loading="lazy"></a><figcaption><a href="https://web.archive.org/web/20150908093255/http://bibliothek.bbaw.de/quellendigital/lamettrie/metr_hommplante_fr_1748/index.html">Source: Akademie </a><br/>
+<a href="https://web.archive.org/web/20150908093255/http://bibliothek.bbaw.de/quellendigital/lamettrie/metr_hommplante_fr_1748/index.html">der Wissenschaften</a></figcaption></figure>
 
 Una provocazione che ha origini lontane, dato che si può risalire almeno a La Mettrie, che con la sua idea dell’uomo-macchina sembra aver influenzato in modo significativo il pensiero moderno reificante. Di fatto anche la scienza medica attuale si basa sul principio che il corpo umano sia del tutto analogo a una macchina da riparare, su cui intervenire dall’esterno manipolandone i meccanismi con i farmaci o con la chirurgia.
 

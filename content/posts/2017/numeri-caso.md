@@ -9,7 +9,7 @@ tags: ["Nuvole"]
 
 Esiste [un libro](https://en.wikipedia.org/wiki/A_Million_Random_Digits_with_100,000_Normal_Deviates), di valore storico per alcuni [esperti](https://www.schneier.com/blog/archives/2006/10/a_million_rando.html) di crittografia, pubblicato per la prima volta nel 1955. Oggi è reperibile una ristampa e su Amazon si trovano più di 600 [commenti](https://www.amazon.com/product-reviews/0833030477) esilaranti dei lettori. A sfogliarlo sembra una cosa assurda, o l'invenzione di un racconto di Borges, poiché contiene un milione di numeri casuali: 400 pagine con 50 righe e per ogni riga 50 numeri (ognuno di 5 cifre).
 
-<figure><a href="/images/numeri-caso-1.png"><img src="/images/numeri-caso-1.png" alt="" loading="lazy"></a><figcaption>Fonte: <a href="https://www.wired.com/2012/08/st_randomnumbergenerators/">Wired</a></figcaption></figure>
+<figure><a href="/images/numeri-caso-1.png"><img src="/images/numeri-caso-1.png" alt="" loading="lazy"></a><figcaption>Fonte: <a href="https://web.archive.org/web/20171223202538/https://www.wired.com/2012/08/st_randomnumbergenerators/">Wired</a></figcaption></figure>
 
 Per quanto possa sembrare strano, non è così facile generare in modo meccanico lunghe sequenze di numeri casuali. Per capire questo paradosso basta considerare il fatto che un computer, come quasi ogni meccanismo costruito dall’uomo, è progettato solitamente per avere un comportamento rigidamente deterministico, secondo una logica, quindi prevedibile.
 
