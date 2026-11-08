@@ -8,7 +8,6 @@ tags: ["Nuvole"]
 ---
 
 Questo mistero è grande
-
 lo dico in riferimento a Cristo e alla Chiesa!  
 Ef 5,32
 {.destra}
