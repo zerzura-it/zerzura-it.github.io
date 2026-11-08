@@ -6,9 +6,14 @@ timeZone = "Europe/Rome"
 # Blogger distingueva maiuscole e minuscole (es. /search/label/Nuvole)
 disablePathToLower = true
 enableRobotsTXT = true
+capitalizeListTitles = false
+
+# i post nuovi diventano file .html come quelli di Blogger (vedi permalinks)
+[uglyURLs]
+posts = true
 
 [params]
-  description = "un viaggio, una ricerca, una avventura"
+  description = "un viaggio, una ricerca, un'avventura"
   author = "Emanuele"
   # aboutme = "http://about.me/emanuelecisbani"
 
@@ -23,7 +28,7 @@ enableRobotsTXT = true
 [permalinks]
   # i post nuovi avranno indirizzi come quelli di Blogger: /2026/11/nome-del-file.html
   [permalinks.page]
-    posts = "/:year/:month/:contentbasename.html"
+    posts = "/:year/:month/:contentbasename"
   [permalinks.term]
     tags = "/search/label/:slug/"
   [permalinks.taxonomy]
