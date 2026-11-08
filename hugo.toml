@@ -73,3 +73,7 @@ enableRobotsTXT = true
     name = "Archivio"
     url = "/archivio/"
     weight = 5
+
+[markup.goldmark.extensions.footnote]
+  # le note di post diversi mostrati nella stessa pagina (home, etichette) non si confondono
+  enableAutoIDPrefix = true

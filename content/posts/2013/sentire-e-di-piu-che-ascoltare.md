@@ -13,11 +13,11 @@ Perciò non suonerebbe bene tradurre "shemà Israel" con "senti Israele" (come g
 
 Questa sottigliezza linguistica, forse solo esteriore e accidentale, potrebbe passare del tutto inosservata se non fosse che ne nasconde una seconda, più profonda e semantica.
 
-Nel primo libro dei Re, Salomone chiede al Signore di dargli un “lev shemà” (לב שמע) \[N.B.: questa mia interpretazione è inesatta, la lettura corretta è "lev shomè'a", vedi il commento di Doron in calce a questo post\]. Le bibbie italiane traducono solitamente con “un cuore intelligente” oppure “un cuore docile”. Questa incertezza tra due significati sostanzialmente piuttosto diversi ci rivela la presenza di un problema semantico. Il verbo "shamà" possiede infatti anche il significato di capire o comprendere. Una traduzione letterale potrebbe essere dunque sia “un cuore senziente” che "un cuore comprendente", ma non "un cuore docile". 
+Nel primo libro dei Re, Salomone chiede al Signore di dargli un “lev shemà” (לב שמע) \[N.B.: questa mia interpretazione è inesatta, la lettura corretta è "lev shomè'a", vedi il commento di Doron[^Doron] in calce a questo post\]. Le bibbie italiane traducono solitamente con “un cuore intelligente” oppure “un cuore docile”. Questa incertezza tra due significati sostanzialmente piuttosto diversi ci rivela la presenza di un problema semantico. Il verbo "shamà" possiede infatti anche il significato di capire o comprendere. Una traduzione letterale potrebbe essere dunque sia “un cuore senziente” che "un cuore comprendente", ma non "un cuore docile". 
 
 Si insinua allora in me un'altra possibilità di lettura: e cioè che quando Salomone chiede un “lev shemà”, faccia riferimento a un “sentire o comprendere con il corpo” che tutti conosciamo molto bene, che non è indirizzato tanto all’intelletto quanto al cuore, simile forse più al sentire o capire il ritmo della musica, che richiede “orecchio”, affinché il cuore batta al ritmo della Parola del Signore. Il riferimento sarebbe quindi a una modalità del sentire e comprendere che coinvolge i sentimenti, l’anima e lo spirito della persona, di modo che la Torah si faccia carne viva nel nostro corpo, e l’uomo viva "come danzando" in essa.
 
-Quello che segue è il commento inviato il 16 Luglio 2013 dal mio maestro e amico Doron Mittler, autore del testo "Grammatica Ebraica", Zanichelli 2000.  
+[^Doron]: Quello che segue è il commento inviato il 16 Luglio 2013 dal mio maestro e amico Doron Mittler, autore del testo "Grammatica Ebraica", Zanichelli 2000.  
 
 Mi piacciono molto il tuo entusiasmo e l'amore che sembra tu provi per la lingua ebraica, ma le cose sono un po' più complicate... :-)
 

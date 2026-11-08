@@ -136,3 +136,14 @@ main { max-width: 42rem; }
   color: var(--tenue);
 }
 .paginazione .dir { display: block; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tenue); }
+
+/* note a piè di pagina */
+.testo .footnote-ref { text-decoration: none; font: 600 0.7em var(--sans); padding: 0 0.1em; }
+.testo .footnotes { margin-top: 2.5em; font-size: 0.9rem; color: var(--tenue); }
+.testo .footnotes hr { width: 6rem; margin: 0 0 1em; }
+.testo .footnotes ol { padding-left: 1.4em; }
+.testo .footnotes li { margin-bottom: 0.4em; }
+.testo .footnotes p { margin: 0; }
+.testo .footnote-backref { text-decoration: none; }
+.testo [id*="fn:"], .testo [id*="fnref:"] { scroll-margin-top: 2rem; }
+
