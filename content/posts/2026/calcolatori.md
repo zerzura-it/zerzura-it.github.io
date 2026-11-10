@@ -6,7 +6,7 @@ tags:
 draft: true
 ---
 Se accettiamo che l’universo e tutto ciò che contiene  
-siano fondamentalmente computazionali…. 
+siano fondamentalmente computazionali. 
 otteniamo un quadro di riferimento unificato  
 che va oltre la portata di ogni precedente teoria della storia.  
 Questo può permetterci di costruire un’API per integrare  
