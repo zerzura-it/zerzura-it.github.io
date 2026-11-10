@@ -1,12 +1,13 @@
 ---
-title: "Sentire è di più che ascoltare"
-date: 2013-06-24T14:51:00+02:00
+title: Sentire è di più che ascoltare
+date: 2026-11-10T19:17:00
 lastmod: 2016-05-10T11:13:28+02:00
 url: /2013/06/sentire-e-di-piu-che-ascoltare.html
-author: "Emanuele"
-tags: ["Darash"]
+author: Emanuele
+tags:
+  - Darash
+draft: false
 ---
-
 In ebraico esistono due verbi, lishmoa (לשמוע) e lehakshiv (להקשיב), che corrispondono all'italiano sentire e ascoltare, e all'inglese hear e listen. La differenza di senso risiede nell'attenzione, per cui è possibile sentire senza ascoltare ma non viceversa. Forse per questo in italiano (diversamente che in ebraico) diciamo proprio "ascolta!" per richiamare l'attenzione.
 
 Perciò non suonerebbe bene tradurre "shemà Israel" con "senti Israele" (come gli inglesi che traducono "hear Israel"), seppure anche noi in modo colloquiale diciamo spesso "senti!" per richiamare l’attenzione di una persona.
@@ -17,7 +18,7 @@ Nel primo libro dei Re, Salomone chiede al Signore di dargli un “lev shemà”
 
 Si insinua allora in me un'altra possibilità di lettura: e cioè che quando Salomone chiede un “lev shemà”, faccia riferimento a un “sentire o comprendere con il corpo” che tutti conosciamo molto bene, che non è indirizzato tanto all’intelletto quanto al cuore, simile forse più al sentire o capire il ritmo della musica, che richiede “orecchio”, affinché il cuore batta al ritmo della Parola del Signore. Il riferimento sarebbe quindi a una modalità del sentire e comprendere che coinvolge i sentimenti, l’anima e lo spirito della persona, di modo che la Torah si faccia carne viva nel nostro corpo, e l’uomo viva "come danzando" in essa.
 
-[^Doron]: Quello che segue è il commento inviato il 16 Luglio 2013 dal mio maestro e amico Doron Mittler, autore del testo ["Grammatica Ebraica"](https://www.zanichelli.it/ricerca/prodotti/grammatica-ebraica), Zanichelli 2000.  
+[^Doron]: Quello che segue è il commento inviatomi il 16 Luglio 2013 dal mio maestro e amico Doron Mittler, autore del testo ["Grammatica Ebraica"](https://www.zanichelli.it/ricerca/prodotti/grammatica-ebraica), Zanichelli 2000.  
 
     Mi piacciono molto il tuo entusiasmo e l'amore che sembra tu provi per la lingua ebraica, ma le cose sono un po' più complicate... :-)
 
