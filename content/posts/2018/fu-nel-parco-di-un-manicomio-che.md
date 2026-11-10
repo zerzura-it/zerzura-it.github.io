@@ -1,6 +1,6 @@
 ---
 title: "Manicomio"
-date: 2018-01-14T22:22:00+01:00
+date: 2018-01-14T22:22:00
 lastmod: 2018-04-10T10:56:17+02:00
 url: /2018/01/fu-nel-parco-di-un-manicomio-che.html
 author: "Emanuele"

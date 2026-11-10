@@ -1,6 +1,6 @@
 ---
 title: "Biopolitica e clero"
-date: 2024-02-18T01:02:00+01:00
+date: 2024-02-18T01:02:00
 lastmod: 2024-02-22T01:13:44+01:00
 url: /2024/02/biopolitica-e-clero.html
 author: "Emanuele"

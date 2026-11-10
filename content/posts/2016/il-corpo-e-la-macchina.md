@@ -1,6 +1,6 @@
 ---
 title: "Il corpo e la macchina"
-date: 2016-05-26T12:58:00+02:00
+date: 2016-05-26T12:58:00
 lastmod: 2016-05-26T12:58:46+02:00
 url: /2016/05/il-corpo-e-la-macchina.html
 author: "Emanuele"

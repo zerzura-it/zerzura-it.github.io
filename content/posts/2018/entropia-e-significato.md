@@ -1,6 +1,6 @@
 ---
 title: "Entropia e significato"
-date: 2018-04-25T05:00:00+02:00
+date: 2018-04-25T05:00:00
 lastmod: 2018-04-26T12:19:32+02:00
 url: /2018/04/entropia-e-significato.html
 author: "Emanuele"

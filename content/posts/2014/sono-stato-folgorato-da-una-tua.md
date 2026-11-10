@@ -1,6 +1,6 @@
 ---
 title: "Il sogno di una cosa"
-date: 2014-03-14T21:40:00+01:00
+date: 2014-03-14T21:40:00
 lastmod: 2016-05-12T10:05:26+02:00
 url: /2014/03/sono-stato-folgorato-da-una-tua.html
 author: "Emanuele"

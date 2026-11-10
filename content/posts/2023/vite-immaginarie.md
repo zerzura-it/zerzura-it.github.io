@@ -1,6 +1,6 @@
 ---
 title: "Vite immaginarie"
-date: 2023-08-24T11:00:00+02:00
+date: 2023-08-24T11:00:00
 lastmod: 2023-08-24T11:00:10+02:00
 url: /2023/08/vite-immaginarie.html
 author: "Emanuele"

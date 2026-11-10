@@ -1,6 +1,6 @@
 ---
 title: "Libertà e tradizione"
-date: 2023-08-12T01:30:00+02:00
+date: 2023-08-12T01:30:00
 lastmod: 2023-08-12T01:31:03+02:00
 url: /2023/08/liberta-e-tradizione.html
 author: "Emanuele"

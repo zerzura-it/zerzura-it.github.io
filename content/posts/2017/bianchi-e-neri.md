@@ -1,6 +1,6 @@
 ---
 title: "Bianchi e neri"
-date: 2017-01-20T14:58:00+01:00
+date: 2017-01-20T14:58:00
 lastmod: 2017-01-20T17:16:04+01:00
 url: /2017/01/bianchi-e-neri.html
 author: "Emanuele"

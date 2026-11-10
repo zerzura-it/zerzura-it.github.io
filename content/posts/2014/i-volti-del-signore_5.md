@@ -1,6 +1,6 @@
 ---
 title: "I volti del Signore"
-date: 2014-11-11T23:22:00+01:00
+date: 2014-11-11T23:22:00
 lastmod: 2016-05-10T11:14:24+02:00
 url: /2014/11/i-volti-del-signore_5.html
 author: "Emanuele"

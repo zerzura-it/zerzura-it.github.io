@@ -1,6 +1,6 @@
 ---
 title: "Poveri di spirito"
-date: 2016-10-19T21:13:00+02:00
+date: 2016-10-19T21:13:00
 lastmod: 2016-10-19T21:13:37+02:00
 url: /2016/10/poveri-di-spirito.html
 author: "Emanuele"

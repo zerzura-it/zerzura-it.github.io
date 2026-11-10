@@ -1,6 +1,6 @@
 ---
 title: "Contare e raccontare"
-date: 2024-04-26T20:30:00+02:00
+date: 2024-04-26T20:30:00
 lastmod: 2024-04-26T20:30:17+02:00
 url: /2024/04/contare-e-raccontare.html
 author: "Emanuele"

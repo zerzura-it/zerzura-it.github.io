@@ -1,6 +1,6 @@
 ---
 title: "Stelle"
-date: 2016-05-26T15:16:00+02:00
+date: 2016-05-26T15:16:00
 lastmod: 2016-05-26T15:16:13+02:00
 url: /p/stelle.html
 author: "Emanuele"

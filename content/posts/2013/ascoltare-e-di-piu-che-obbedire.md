@@ -1,6 +1,6 @@
 ---
 title: "Ascoltare è di più che obbedire"
-date: 2013-05-23T03:00:00+02:00
+date: 2013-05-23T03:00:00
 lastmod: 2016-05-10T11:12:44+02:00
 url: /2013/05/ascoltare-e-di-piu-che-obbedire.html
 author: "Emanuele"

@@ -1,6 +1,6 @@
 ---
 title: "Numeri a caso"
-date: 2017-12-22T21:02:00+01:00
+date: 2017-12-22T21:02:00
 lastmod: 2017-12-22T21:13:34+01:00
 url: /2017/12/numeri-caso.html
 author: "Emanuele"

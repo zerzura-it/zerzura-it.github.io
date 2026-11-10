@@ -1,6 +1,6 @@
 ---
 title: "È così"
-date: 2023-09-24T17:17:00+02:00
+date: 2023-09-24T17:17:00
 lastmod: 2023-09-26T17:24:33+02:00
 url: /2023/09/e-cosi.html
 author: "Emanuele"

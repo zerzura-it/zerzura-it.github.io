@@ -1,6 +1,6 @@
 ---
 title: "Pressurizzàti"
-date: 2016-10-13T18:36:00+02:00
+date: 2016-10-13T18:36:00
 lastmod: 2016-10-13T18:36:29+02:00
 url: /2016/10/pressurizzati.html
 author: "Emanuele"

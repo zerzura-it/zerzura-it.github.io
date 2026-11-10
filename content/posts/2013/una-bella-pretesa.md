@@ -1,6 +1,6 @@
 ---
 title: "Una bella pretesa"
-date: 2013-06-28T06:38:00+02:00
+date: 2013-06-28T06:38:00
 lastmod: 2016-05-10T11:13:40+02:00
 url: /2013/06/una-bella-pretesa.html
 author: "Emanuele"

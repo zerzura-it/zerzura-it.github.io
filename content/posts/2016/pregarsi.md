@@ -1,6 +1,6 @@
 ---
 title: "Pregarsi"
-date: 2016-08-11T18:33:00+02:00
+date: 2016-08-11T18:33:00
 lastmod: 2016-08-15T07:37:01+02:00
 url: /2016/08/pregarsi.html
 author: "Emanuele"

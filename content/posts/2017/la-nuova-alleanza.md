@@ -1,6 +1,6 @@
 ---
 title: "La Nuova Alleanza"
-date: 2017-10-27T20:38:00+02:00
+date: 2017-10-27T20:38:00
 lastmod: 2017-10-27T21:02:05+02:00
 url: /2017/10/la-nuova-alleanza.html
 author: "Emanuele"

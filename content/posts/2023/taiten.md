@@ -1,6 +1,6 @@
 ---
 title: "Taiten"
-date: 2023-04-09T20:06:00+02:00
+date: 2023-04-09T20:06:00
 lastmod: 2023-05-08T11:45:57+02:00
 url: /2023/04/taiten.html
 author: "Emanuele"

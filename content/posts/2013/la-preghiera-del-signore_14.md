@@ -1,6 +1,6 @@
 ---
 title: "La Preghiera del Signore"
-date: 2013-11-14T00:39:00+01:00
+date: 2013-11-14T00:39:00
 lastmod: 2023-10-08T10:27:54+02:00
 url: /2013/11/la-preghiera-del-signore_14.html
 author: "Emanuele"

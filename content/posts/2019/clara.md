@@ -1,6 +1,6 @@
 ---
 title: "Clara"
-date: 2019-01-01T14:59:00+01:00
+date: 2019-01-01T14:59:00
 lastmod: 2019-01-02T15:05:55+01:00
 url: /2019/01/clara.html
 author: "Emanuele"

@@ -1,6 +1,6 @@
 ---
 title: "Il caso non esiste"
-date: 2016-05-14T22:21:00+02:00
+date: 2016-05-14T22:21:00
 lastmod: 2016-10-13T18:37:24+02:00
 url: /2016/05/il-caso-non-esiste.html
 author: "Emanuele"

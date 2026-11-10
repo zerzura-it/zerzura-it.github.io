@@ -1,6 +1,6 @@
 ---
 title: "Dormida"
-date: 2023-08-31T00:50:00+02:00
+date: 2023-08-31T00:50:00
 lastmod: 2023-09-02T23:15:34+02:00
 url: /2023/08/dormida.html
 author: "Emanuele"

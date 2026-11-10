@@ -1,6 +1,6 @@
 ---
 title: "Cristiani"
-date: 2016-11-15T13:39:00+01:00
+date: 2016-11-15T13:39:00
 lastmod: 2023-08-31T12:21:41+02:00
 url: /2016/11/cristiani.html
 author: "Emanuele"

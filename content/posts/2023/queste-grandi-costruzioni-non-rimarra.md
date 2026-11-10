@@ -1,6 +1,6 @@
 ---
 title: "Pietre"
-date: 2023-07-16T08:21:00+02:00
+date: 2023-07-16T08:21:00
 lastmod: 2023-07-16T08:25:09+02:00
 url: /2023/07/queste-grandi-costruzioni-non-rimarra.html
 author: "Emanuele"

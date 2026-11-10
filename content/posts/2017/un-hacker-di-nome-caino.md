@@ -1,6 +1,6 @@
 ---
 title: "Un hacker di nome Caino"
-date: 2017-06-24T08:07:00+02:00
+date: 2017-06-24T08:07:00
 lastmod: 2018-04-26T20:07:18+02:00
 url: /2017/06/un-hacker-di-nome-caino.html
 author: "Emanuele"

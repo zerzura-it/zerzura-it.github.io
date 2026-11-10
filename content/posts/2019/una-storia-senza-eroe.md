@@ -1,6 +1,6 @@
 ---
 title: "Una storia senza eroe"
-date: 2019-04-21T12:00:00+02:00
+date: 2019-04-21T12:00:00
 lastmod: 2023-04-08T18:20:47+02:00
 url: /2019/04/una-storia-senza-eroe.html
 author: "Emanuele"

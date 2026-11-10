@@ -1,6 +1,6 @@
 ---
 title: "L'enigma"
-date: 2024-05-13T08:37:00+02:00
+date: 2024-05-13T08:37:00
 lastmod: 2024-05-14T15:41:36+02:00
 url: /2024/05/lenigma.html
 author: "Emanuele"

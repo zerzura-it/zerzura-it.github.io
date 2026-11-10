@@ -1,6 +1,6 @@
 ---
 title: "Un cuore che interpreta"
-date: 2013-07-18T23:42:00+02:00
+date: 2013-07-18T23:42:00
 lastmod: 2016-05-10T11:14:01+02:00
 url: /2013/07/un-cuore-che-interpreta.html
 author: "Emanuele"

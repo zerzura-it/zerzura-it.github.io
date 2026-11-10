@@ -1,6 +1,6 @@
 ---
 title: "La morte de n'omo"
-date: 2018-03-18T23:19:00+01:00
+date: 2018-03-18T23:19:00
 lastmod: 2018-04-04T23:34:18+02:00
 url: /2018/03/la-morte-de-nomo.html
 author: "Emanuele"

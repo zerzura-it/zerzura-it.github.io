@@ -1,6 +1,6 @@
 ---
 title: "Radici in cielo"
-date: 2023-04-24T11:56:00+02:00
+date: 2023-04-24T11:56:00
 lastmod: 2023-05-08T11:39:39+02:00
 url: /2023/04/radici-in-cielo.html
 author: "Emanuele"

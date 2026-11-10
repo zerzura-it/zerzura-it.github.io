@@ -1,6 +1,6 @@
 ---
 title: "Il Tetralemma e il Talmud"
-date: 2017-01-30T10:24:00+01:00
+date: 2017-01-30T10:24:00
 lastmod: 2017-11-03T03:06:46+01:00
 url: /2017/01/il-tetralemma-e-il-talmud.html
 author: "Emanuele"

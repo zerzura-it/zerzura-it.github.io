@@ -1,6 +1,6 @@
 ---
 title: "Prima fare e poi ascoltare"
-date: 2013-05-25T20:51:00+02:00
+date: 2013-05-25T20:51:00
 lastmod: 2016-05-10T11:13:16+02:00
 url: /2013/05/prima-fare-e-poi-ascoltare.html
 author: "Emanuele"

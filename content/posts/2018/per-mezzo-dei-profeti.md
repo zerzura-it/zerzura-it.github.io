@@ -1,6 +1,6 @@
 ---
 title: "Per mezzo dei Profeti"
-date: 2018-12-08T09:37:00+01:00
+date: 2018-12-08T09:37:00
 lastmod: 2019-01-03T09:40:24+01:00
 url: /2018/12/per-mezzo-dei-profeti.html
 author: "Emanuele"

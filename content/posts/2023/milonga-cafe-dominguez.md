@@ -1,6 +1,6 @@
 ---
 title: "Milonga \"Cafè Dominguez\""
-date: 2023-05-08T07:18:00+02:00
+date: 2023-05-08T07:18:00
 lastmod: 2023-08-12T01:26:14+02:00
 url: /2023/05/milonga-cafe-dominguez.html
 author: "Emanuele"

@@ -1,6 +1,6 @@
 ---
 title: "Ognissanti"
-date: 2017-11-01T09:09:00+01:00
+date: 2017-11-01T09:09:00
 lastmod: 2017-11-01T09:09:12+01:00
 url: /2017/11/ognissanti.html
 author: "Emanuele"

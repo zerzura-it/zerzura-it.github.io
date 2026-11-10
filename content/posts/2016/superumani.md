@@ -1,6 +1,6 @@
 ---
 title: "Superumani"
-date: 2016-11-15T15:24:00+01:00
+date: 2016-11-15T15:24:00
 lastmod: 2016-12-19T08:54:34+01:00
 url: /2016/11/superumani.html
 author: "Emanuele"

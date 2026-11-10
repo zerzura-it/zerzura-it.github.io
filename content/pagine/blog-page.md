@@ -1,6 +1,6 @@
 ---
 title: "Nuvole"
-date: 2016-05-26T13:30:00+02:00
+date: 2016-05-26T13:30:00
 lastmod: 2016-05-26T13:30:44+02:00
 url: /p/blog-page.html
 author: "Emanuele"

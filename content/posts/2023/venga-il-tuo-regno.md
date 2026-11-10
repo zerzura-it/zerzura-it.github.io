@@ -1,6 +1,6 @@
 ---
 title: "Venga il tuo Regno"
-date: 2023-10-07T11:33:00+02:00
+date: 2023-10-07T11:33:00
 lastmod: 2023-10-07T11:34:47+02:00
 url: /2023/10/venga-il-tuo-regno.html
 author: "Emanuele"

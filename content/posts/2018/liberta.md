@@ -1,6 +1,6 @@
 ---
 title: "Un'idea di libertà"
-date: 2018-11-20T16:23:00+01:00
+date: 2018-11-20T16:23:00
 lastmod: 2018-11-20T16:23:38+01:00
 url: /2018/11/liberta.html
 author: "Emanuele"

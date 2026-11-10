@@ -1,6 +1,6 @@
 ---
 title: "Sogno"
-date: 2017-02-17T09:19:00+01:00
+date: 2017-02-17T09:19:00
 lastmod: 2017-02-17T09:19:57+01:00
 url: /2017/02/sogno.html
 author: "Emanuele"

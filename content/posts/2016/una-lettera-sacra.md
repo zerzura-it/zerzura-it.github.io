@@ -1,6 +1,6 @@
 ---
 title: "Una lettera sacra"
-date: 2016-04-10T19:33:00+02:00
+date: 2016-04-10T19:33:00
 lastmod: 2016-05-10T11:14:42+02:00
 url: /2016/04/una-lettera-sacra.html
 author: "Emanuele"

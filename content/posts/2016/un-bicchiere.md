@@ -1,6 +1,6 @@
 ---
 title: "Un bicchiere"
-date: 2016-04-17T20:12:00+02:00
+date: 2016-04-17T20:12:00
 lastmod: 2024-04-02T10:07:14+02:00
 url: /2016/04/un-bicchiere.html
 author: "Emanuele"

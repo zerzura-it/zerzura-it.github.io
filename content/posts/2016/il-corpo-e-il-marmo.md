@@ -1,6 +1,6 @@
 ---
 title: "Il corpo e il marmo"
-date: 2016-02-17T20:26:00+01:00
+date: 2016-02-17T20:26:00
 lastmod: 2016-05-12T10:05:04+02:00
 url: /2016/02/il-corpo-e-il-marmo.html
 author: "Emanuele"

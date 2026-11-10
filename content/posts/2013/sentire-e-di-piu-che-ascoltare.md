@@ -1,6 +1,6 @@
 ---
 title: Sentire è di più che ascoltare
-date: 2026-11-10T19:17:00
+date: 2013-06-24T14:51:00
 lastmod: 2016-05-10T11:13:28+02:00
 url: /2013/06/sentire-e-di-piu-che-ascoltare.html
 author: Emanuele
