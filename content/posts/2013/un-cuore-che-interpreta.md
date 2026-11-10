@@ -1,13 +1,14 @@
 ---
-title: "Un cuore che interpreta"
+title: Un cuore che interpreta
 date: 2013-07-18T23:42:00
 lastmod: 2016-05-10T11:14:01+02:00
 url: /2013/07/un-cuore-che-interpreta.html
-author: "Emanuele"
-tags: ["Darash"]
+author: Emanuele
+tags:
+  - Darash
+draft: false
 ---
-
-In effetti dopo il [commento](/2013/06/sentire-e-di-piu-che-ascoltare.html) chiarificatore di Doron mi rendo conto che è bizzarra e temeraria l'idea di tradurre "cuore senziente" quello che solitamente viene tradotto come cuore che comprende (intelligente), docile (obbediente), che ascolta.
+In effetti dopo il [commento](/2013/06/sentire-e-di-piu-che-ascoltare.html) chiarificatore di Doron mi sono reso conto che è bizzarra e temeraria l'idea di tradurre "cuore senziente" quello che solitamente viene tradotto come cuore che comprende (intelligente), docile (obbediente), che ascolta.
 
 Ne approfitto per precisare che non è mia ambizione dare una traduzione con un qualche valore filologico o esegetico (non ne ho competenza). La mia è una lettura spirituale e soggettiva, che si accosta alle tante possibili, più o meno appropriate, con la sola pretesa di condividere la passione per il testo biblico.
 
