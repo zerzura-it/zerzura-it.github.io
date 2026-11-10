@@ -1,0 +1,89 @@
+# Configurazione di Pages CMS (https://app.pagescms.org) per zerzura.it
+# Documentazione: https://pagescms.org/docs/configuration/
+
+media:
+  input: static/images     # dove vengono salvate le immagini caricate
+  output: /images          # come vengono richiamate nei post
+
+settings:
+  content:
+    merge: true            # conserva i campi non elencati qui (url, lastmod, author…)
+  commit:
+    identity: user         # i commit risultano tuoi, non dell'app
+
+content:
+  - name: posts
+    label: Post
+    type: collection
+    path: content/posts
+    subfolders: true       # i post sono divisi in cartelle per anno
+    exclude: [_index.md]
+    format: yaml-frontmatter
+    # Il nome del file diventa l'ultima parte dell'indirizzo:
+    # "Il mio post" pubblicato a novembre 2026 -> /2026/11/il-mio-post.html
+    filename:
+      template: "{primary}.md"
+      field: create
+    view:
+      fields: [title, date, draft]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: date
+        label: Data di pubblicazione
+        type: date
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm:ss"
+      - name: tags
+        label: Etichette
+        type: string
+        list: true
+        description: "Una per riga, scritte sempre allo stesso modo (es. Nuvole, Darash)"
+      - name: draft
+        label: Bozza (non pubblicata)
+        type: boolean
+        default: false
+      - name: body
+        label: Testo (Markdown)
+        type: code
+        options:
+          format: markdown
+
+  - name: pagine
+    label: Pagine
+    type: collection
+    path: content/pagine
+    exclude: [_index.md]
+    format: yaml-frontmatter
+    filename:
+      template: "{primary}.md"
+      field: create
+    view:
+      fields: [title, url]
+      primary: title
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: url
+        label: Indirizzo (es. /p/nome.html)
+        type: string
+        required: true
+      - name: draft
+        label: Bozza (non pubblicata)
+        type: boolean
+        default: false
+      - name: body
+        label: Testo (Markdown)
+        type: code
+        options:
+          format: markdown
