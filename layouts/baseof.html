@@ -8,6 +8,9 @@
   {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">{{ end }}
   {{ if not .IsHome }}{{ with site.Home.OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">{{ end }}{{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
+   <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+   <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="32x32">
+   <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:url" content="{{ .Permalink }}">
   {{ $css := resources.Get "css/stile.css" | minify | fingerprint }}
