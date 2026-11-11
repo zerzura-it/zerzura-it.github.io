@@ -1,6 +1,6 @@
 ---
 title: "La Costituzione"
-date: 2026-11-11T18:00:00
+date: 2024-11-25T00:00:00
 tags: ["Nuvole"]
 draft: false
 ---
