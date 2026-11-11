@@ -1,0 +1,9 @@
+{{- /* Link nei post: quelli verso altri siti si aprono in una nuova scheda */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $esterno := and $u.IsAbs (not (in (slice "www.zerzura.it" "zerzura.it") $u.Host)) -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- if $esterno }} target="_blank" rel="noopener"{{ end }}>
+  {{- .Text -}}
+</a>
+{{- /**/ -}}
