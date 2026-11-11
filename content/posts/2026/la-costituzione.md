@@ -2,7 +2,7 @@
 title: "La Costituzione"
 date: 2026-11-11T18:00:00
 tags: ["Nuvole"]
-draft: true
+draft: false
 ---
 
 ![ANPI](images/anpi.jpg)
@@ -18,10 +18,8 @@ Per risolvere questa aporia dell’intelletto bisogna scavare in profondità nel
 
 I nostri partigiani, ribelli della montagna, hanno scelto durante la resistenza quella che Jünger chiama “la via del bosco”. Dopo la guerra hanno seppellito e nascosto le loro armi, custodendole in luoghi segreti, pronti a riprenderle se fosse stato necessario. Quelle armi e la minaccia dell’Unione Sovietica sono state a lungo la garanzia delle parole scritte nella nostra Costituzione. Ma ora non ci sono più. In questi tempi di guerra credo sia opportuno ricordarlo, per non farsi cogliere del tutto impreparati.
 
-[^1]: “Nessuna libertà per i nemici della libertà” era il motto del Terrore, durante la Rivoluzione Francese, erroneamente attribuito ad Antoine de Saint-Just a partire dal 1925
-[https://www.google.it/books/edition/_/HebkCQAAQBAJ?hl=en&gbpv=1&pg=PA62]
+[^1]: “Nessuna libertà per i nemici della libertà” era il motto del Terrore, durante la Rivoluzione Francese, [erroneamente](https://www.google.it/books/edition/_/HebkCQAAQBAJ?hl=en&gbpv=1&pg=PA62) attribuito ad Antoine de Saint-Just a partire dal 1925
 
 
-[^2]: “Non sono d’accordo con quello che dici, ma darei la vita perché tu lo possa dire” è una frase coniata dalla scrittrice inglese Evelyn Beatrice Hall («I disapprove of what you say, but I will defend to the death your right to say it.») in due suoi libri dedicati a Voltaire, e per questo spesso erroneamente attribuita al filosofo francese.
-[https://www.linkiesta.it/blog/2013/01/voltaire-non-ha-mai-detto-non-sono-daccordo-con-quello-che-dici-ma-dar/]
+[^2]: “Non sono d’accordo con quello che dici, ma darei la vita perché tu lo possa dire” è una frase coniata dalla scrittrice inglese Evelyn Beatrice Hall («I disapprove of what you say, but I will defend to the death your right to say it.») in due suoi libri dedicati a Voltaire, e per questo spesso [erroneamente](https://www.linkiesta.it/blog/2013/01/voltaire-non-ha-mai-detto-non-sono-daccordo-con-quello-che-dici-ma-dar/) attribuita al filosofo francese.
 
