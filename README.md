@@ -106,11 +106,12 @@ Il sito è statico, quindi si può confrontare il risultato prima e dopo l'aggio
 
 Crea un file in `content/posts/` dentro la cartella dell'anno, per esempio `content/posts/2026/titolo-del-post.md`:
 
-```markdown
+```
 ---
 title: "Titolo del post"
-date: 2026-11-15T10:00:00+01:00
+date: 2026-11-15T10:00:00
 tags: ["Nuvole"]
+draft: true
 ---
 
 Primo paragrafo del post.
@@ -231,7 +232,7 @@ tags: ["Nuvole", "Città nuove"]
 
 Stanno in `content/pagine/`, con l'indirizzo nel campo `url` (nello stile di Blogger, `/p/nome.html`):
 
-```markdown
+```
 ---
 title: "Stelle"
 url: /p/stelle.html

@@ -1,6 +1,9 @@
 {{- /* Un post: titolo, data, contenuto e piè di pagina. Parametro: la pagina */ -}}
 <article class="post">
-  <p class="data"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time></p>
+  {{- /* la data si mostra solo nei post: le pagine (Nuvole, Stelle…) sono senza tempo, come su Blogger */}}
+  {{ if and (eq .Section "posts") (not .Date.IsZero) }}
+    <p class="data"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time></p>
+  {{ end }}
   {{ if .IsPage }}
     <h1 class="titolo-post">{{ .Title }}</h1>
   {{ else }}
