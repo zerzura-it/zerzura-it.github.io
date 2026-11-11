@@ -97,9 +97,16 @@ main { max-width: 42rem; }
 }
 .testo blockquote blockquote { border: 0; padding: 0; margin: 0; }
 .testo .destra { text-align: right; font-style: italic; color: var(--tenue); }
-.testo img { max-width: 100%; height: auto; }
+
+/* immagini: centrate, con un margine di circa il 7,5% per lato rispetto al testo */
+:root { --largh-immagini: 85%; }
+.testo img { max-width: var(--largh-immagini); height: auto; border-radius: 2px; }
+.testo p > img:only-child, .testo p > a:only-child > img { display: block; margin: 2em auto; }
 .testo figure { margin: 2em auto; text-align: center; }
-.testo figure img { max-height: 32rem; width: auto; border-radius: 2px; }
+.testo figure img { max-height: 32rem; width: auto; }
+.testo figcaption { max-width: var(--largh-immagini); margin-left: auto; margin-right: auto; }
+@media (max-width: 40rem) { :root { --largh-immagini: 100%; } }  /* telefono: a tutta larghezza */
+
 .testo figcaption { font: 0.85rem/1.5 var(--sans); color: var(--tenue); margin-top: 0.5rem; }
 .testo iframe, .testo video { max-width: 100%; }
 .testo table { border-collapse: collapse; margin: 1.5em 0; }
@@ -143,7 +150,8 @@ main { max-width: 42rem; }
 .testo .footnotes hr { width: 6rem; margin: 0 0 1em; }
 .testo .footnotes ol { padding-left: 1.4em; }
 .testo .footnotes li { margin-bottom: 0.4em; }
-.testo .footnotes p { margin: 0.6em; }
+.testo .footnotes p { margin: 0 0 0.6em; }
+.testo .footnotes li > p:last-child { margin-bottom: 0; }
+.testo .footnotes blockquote { margin: 0.4em 0 0.6em; font-style: normal; }
 .testo .footnote-backref { text-decoration: none; }
 .testo [id*="fn:"], .testo [id*="fnref:"] { scroll-margin-top: 2rem; }
-
