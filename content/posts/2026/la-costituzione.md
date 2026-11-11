@@ -5,7 +5,7 @@ tags: ["Nuvole"]
 draft: false
 ---
 
-![ANPI](images/anpi.jpg)
+![ANPI](/images/anpi.jpg)
 
 Questo slogan diffuso dall’ANPI in occasione del centenario dell’assassinio di Giacomo Matteotti, a prima vista sembra ineccepibile, perché ci ricorda semplicemente come il Fascismo sia stato condannato dalla storia per la sua violenza e brutalità. 
 Può però richiamare alla mente il motto del Terrore “Nessuna libertà per i nemici della libertà”[^1].
