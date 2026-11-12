@@ -1,0 +1,8 @@
+{{- /* Versione per il feed RSS: stessa anteprima e didascalia della pagina */ -}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- $video := printf "https://www.youtube.com/watch?v=%s" $id -}}
+{{- $dati := partial "youtube-anteprima.html" $id -}}
+{{- $titolo := .Get "title" | default $dati.titolo | default "Video di YouTube" -}}
+<p>
+{{- with $dati.img }}<a href="{{ $video }}"><img src="{{ .Permalink }}" alt="{{ $titolo }}" width="{{ .Width }}" height="{{ .Height }}"></a><br>{{ end }}
+{{ $titolo }} · <a href="{{ $video }}">guarda su YouTube</a></p>

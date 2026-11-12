@@ -1,9 +1,14 @@
-{{- /* Video di YouTube: {{< youtube ID >}} oppure {{< youtube id="ID" title="Titolo" >}}
-     Larghezza come le immagini (vedi --largh-immagini in stile.css), proporzione 16:9 */ -}}
+{{- /* Video di YouTube: {{< youtube ID >}}, oppure {{< youtube id="ID" title="Titolo" >}}
+     per scegliere il titolo da mostrare (altrimenti si usa quello del video su YouTube).
+     Nella pagina c'è l'anteprima, pubblicata sul sito, con una didascalia:
+     il titolo e il link a YouTube, che si apre in una nuova scheda. */ -}}
 {{- $id := .Get "id" | default (.Get 0) -}}
-{{- $titolo := .Get "title" | default "Video di YouTube" -}}
-<div class="video">
-  <iframe src="https://www.youtube-nocookie.com/embed/{{ $id }}" title="{{ $titolo }}" loading="lazy"
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{{- $video := printf "https://www.youtube.com/watch?v=%s" $id -}}
+{{- $dati := partial "youtube-anteprima.html" $id -}}
+{{- $titolo := .Get "title" | default $dati.titolo | default "Video di YouTube" -}}
+<figure class="video">
+  {{- with $dati.img }}
+  <a href="{{ $video }}" target="_blank" rel="noopener"><img src="{{ .RelPermalink }}" alt="{{ $titolo }}" width="{{ .Width }}" height="{{ .Height }}" loading="lazy"></a>
+  {{- end }}
+  <figcaption>{{ $titolo }} · <a href="{{ $video }}" target="_blank" rel="noopener">guarda su YouTube</a></figcaption>
+</figure>

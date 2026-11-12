@@ -114,9 +114,8 @@ main { max-width: 42rem; }
 .testo figcaption { font: 0.85rem/1.5 var(--sans); color: var(--tenue); margin-top: 0.5rem; }
 .testo figcaption p { margin: 0; }
 .testo iframe, .testo video { max-width: 100%; }
-/* video di YouTube (shortcode youtube): stessa larghezza delle immagini, 16:9 */
-.testo .video { width: min(var(--largh-immagini), var(--max-immagini)); margin: 2em auto; aspect-ratio: 16 / 9; }
-.testo .video iframe { width: 100%; height: 100%; border: 0; border-radius: 2px; }
+/* video di YouTube (shortcode youtube): anteprima come un'immagine, con didascalia */
+.testo figure.video img { aspect-ratio: 16 / 9; object-fit: cover; }
 .testo table { border-collapse: collapse; margin: 1.5em 0; }
 .testo td, .testo th { border: 1px solid var(--linea); padding: 0.3em 0.6em; }
 .testo hr { border: 0; border-top: 1px solid var(--linea); margin: 2em 0; }
