@@ -13,6 +13,8 @@ Immagina una vita in cui avessi un DNA perfetto, scevro da patologie congenite, 
 
 Pensa ora alle vite di donne e uomini illustri, perennemente ricordati per le loro gesta, scoperte, avventure, opere di arte o di ingegno. Quante, scavando nelle loro biografie, non si rivelerebbero come il risultato di una lotta per compensare il male o la disgrazia?
 
+Il fatto che Mosè fosse balbuziente non è forse il più chiaro messaggio con cui l’Altissimo ha cercato di insegnarci il senso profondo della disabilità.
+
 Allora, ponendosi nel mezzo di tale polarità, forse l'idea odierna della salute  ci si può rivelare come un mito contemporaneo. Qualcosa di idealizzato in modo aberrante. Una narrazione certo utile al commercio di farmaci, placebi, rimedi, diete, stili di vita, intrattenimenti, abbonamenti a palestre.
 
 Non inciamperò nella tentazione di elogiare la malattia. Né nel pensiero nichilista di considerare la vita stessa una malattia, la cui unica cura sarebbe la morte. No, queste paradossali provocazioni non convincono, perché sono contro la vita.
