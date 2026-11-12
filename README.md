@@ -121,7 +121,7 @@ Secondo paragrafo.
 
 **Indirizzo.** Viene da anno e mese della data e dal nome del file: il file sopra diventa `/2026/11/titolo-del-post.html`, nello stesso stile dei post di Blogger. Usa nomi di file in minuscolo, senza spazi né accenti (`perche-no.md`, non `Perché no.md`). Per scegliere un indirizzo diverso aggiungi nel front matter `url: /2026/11/altro-nome.html`.
 
-**Data.** Un post con data futura non compare finché quella data non arriva *e* il sito non viene ripubblicato: per programmare un post bisogna quindi fare un push (o lanciare a mano "Pubblica il sito") dopo l'ora indicata. Il fuso è quello italiano: `+01:00` d'inverno, `+02:00` d'estate.
+**Data.** Un post con data futura non compare finché quella data non arriva *e* il sito non viene ripubblicato: per programmare un post bisogna quindi fare un push (o lanciare a mano "Pubblica il sito") dopo l'ora indicata.
 
 **Bozze.** `draft: true` nel front matter tiene il post nascosto; si vede solo con `hugo server -D`. Toglilo per pubblicarlo.
 
@@ -197,14 +197,17 @@ Copia l'immagine in `static/images/` (nome in minuscolo, senza spazi) e richiama
 ![Descrizione dell'immagine](/images/foto.jpg)
 ```
 
-Con didascalia, in HTML (come nei post importati):
+Con didascalia, usa lo shortcode `figure`. La didascalia si scrive in Markdown e i link esterni si aprono in una nuova scheda come nel resto del testo:
 
-```html
-<figure>
-  <a href="/images/foto.jpg"><img src="/images/foto.jpg" alt="Descrizione" loading="lazy"></a>
-  <figcaption>La didascalia</figcaption>
-</figure>
 ```
+{{< figure src="/images/foto.jpg" link="/images/foto.jpg" alt="Descrizione"
+    caption="Foto di [Mario Rossi](https://esempio.it), *2016*" >}}
+```
+
+- `link` è facoltativo e rende l'immagine cliccabile;
+- dentro `caption` non usare le virgolette doppie (`"`), che chiudono il parametro: usa quelle tipografiche (“ ”) o gli apostrofi.
+
+I post importati usano `<figure>` scritto in HTML: lì il Markdown non viene interpretato, quindi un link nella didascalia va scritto in HTML con `target="_blank" rel="noopener"`.
 
 Riduci le foto prima di caricarle: 1600 pixel sul lato lungo bastano e fanno pesare il sito molto meno.
 

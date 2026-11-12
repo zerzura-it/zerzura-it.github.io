@@ -108,6 +108,7 @@ main { max-width: 42rem; }
 @media (max-width: 40rem) { :root { --largh-immagini: 100%; } }  /* telefono: a tutta larghezza */
 
 .testo figcaption { font: 0.85rem/1.5 var(--sans); color: var(--tenue); margin-top: 0.5rem; }
+.testo figcaption p { margin: 0; }
 .testo iframe, .testo video { max-width: 100%; }
 .testo table { border-collapse: collapse; margin: 1.5em 0; }
 .testo td, .testo th { border: 1px solid var(--linea); padding: 0.3em 0.6em; }
