@@ -5,6 +5,10 @@ tags:
   - Nuvole
 draft: false
 ---
+“Ogni disabilità cela una vocazione”  
+C. S. Lewis
+{.destra}
+
 Immagina una vita in cui avessi un DNA perfetto, scevro da patologie congenite, malformazioni, fragilità e predisposizioni al male. Immaginala immersa in un mondo privo di agenti patogeni e di infortuni. Sarebbe davvero migliore e desiderabile? 
 
 Pensa ora alle vite di donne e uomini illustri, perennemente ricordati per le loro gesta, scoperte, avventure, opere di arte o di ingegno. Quante, scavando nelle loro biografie, non si rivelerebbero come il risultato di una lotta per compensare il male o la disgrazia?
