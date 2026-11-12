@@ -9,7 +9,7 @@ Come il blog è passato da Blogger (versozerzura.blogspot.com, con dominio www.z
 - Le etichette *Nuvole* e *Darash*.
 - **Non importati**: i commenti (quasi tutti spam) e i post nel cestino.
 
-Ogni post importato ha nel front matter il campo `url` con l'indirizzo originale di Blogger, la data di pubblicazione e quella di ultima modifica (convertite all'ora italiana), l'autore e le etichette. L'elenco completo degli indirizzi originali è in `scripts/url-originali.json`.
+Ogni post importato ha nel front matter il campo `url` con l'indirizzo originale di Blogger, la data di pubblicazione e quella di ultima modifica (convertite all'ora italiana; in seguito la data di pubblicazione è stata riscritta senza fuso orario, vedi sotto), l'autore e le etichette. L'elenco completo degli indirizzi originali è in `scripts/url-originali.json`.
 
 ## Indirizzi conservati
 
@@ -59,6 +59,26 @@ grep -rnE "googleusercontent\.com|bp\.blogspot\.com" content
 
 - Ai link esterni scritti in HTML (soprattutto nelle didascalie) sono stati aggiunti `target="_blank" rel="noopener"`; i link in Markdown li ricevono dal render hook `layouts/_markup/render-link.html`.
 - Il controllo dei link esterni (`scripts/link_rotti.py`, workflow "Controlla i link esterni") sostituisce i link morti con le copie su archive.org.
+- **Date senza fuso orario.** Pages CMS salva le date come `2026-11-10T18:50:00` e non riconosceva quelle importate (`2013-06-24T14:51:00+02:00`): aprendo un post vecchio le sostituiva con l'ora corrente. Il fuso è stato tolto da tutte le date `date:` con
+  `sed -i -E 's/^(date: [0-9-]+T[0-9:]+)[+-][0-9]{2}:[0-9]{2}$/\1/' …`.
+  Il sito generato è rimasto identico, perché Hugo interpreta le date senza fuso come ora italiana (`timeZone = "Europe/Rome"`).
+- L'epigrafe di *Biopolitica e clero* è stata corretta a mano (vedi la nota sullo script qui sopra).
+- La pagina *Stelle*, bozza su Blogger, è stata pubblicata a `/p/stelle.html`.
+
+## Ritocchi al sito dopo la migrazione
+
+Rispetto alla prima versione:
+
+- **Navigazione tra i post** in ordine cronologico, con "Post precedente" a sinistra e "Post successivo" a destra (`layouts/page.html`).
+- **Barra laterale**: al posto delle tendine di Blogger per anni e mesi, gli ultimi 5 post e gli anni come link alla pagina `/archivio/`, che ha un'àncora per anno.
+- **Data ed etichette sopra il titolo**; tolta la riga "Pubblicato da" (l'autore compare solo se diverso da quello del sito). Le pagine non mostrano la data.
+- **Immagini e video** al massimo 400 px, come le immagini "grandi" di Blogger, a tutta larghezza sul telefono. Lo shortcode `youtube` di Hugo, che occupava sempre tutta la larghezza, è stato sostituito da `layouts/_shortcodes/youtube.html` (con `youtube-nocookie.com`).
+- **Note a piè di pagina** (`enableAutoIDPrefix`, perché le note di più post nella stessa pagina non si confondano) e **link esterni in una nuova scheda** (render hook).
+- **Condivisione** in fondo ai post: Condividi (menu di sistema o copia del link), Fediverso, Email. Volutamente niente WhatsApp, Telegram o pulsanti di servizi che tracciano i visitatori.
+- **Pagina `/segui/`** al posto del link diretto al feed RSS, che i browser mostrano come codice XML.
+- **Icona del sito**: senza, i browser continuavano a mostrare quella di Blogger rimasta in cache.
+- **Pages CMS** (`.pages.yml`) per scrivere dal telefono, con il testo in Markdown e `merge: true` per non perdere `url` e gli altri campi dei post importati.
+- Tolto il link ad about.me.
 
 ## Messa online
 
@@ -90,3 +110,5 @@ Per controllare il DNS: `nslookup www.zerzura.it` deve rispondere `zerzura-it.gi
 - Le bozze e le pagine non pubblicate sono nell'export: decidere caso per caso.
 - Controllare gli album di tutti i blog dello stesso account: le immagini non sempre stanno nell'album del blog in cui compaiono.
 - Le immagini incollate da Google Docs (`lh*.googleusercontent.com` senza nome di file) non sono negli album: vanno scaricate dai server di Google finché esistono.
+- Scrivere le date senza fuso orario fin dalla conversione, se si userà Pages CMS.
+- Aggiungere subito un'icona al sito, altrimenti resta quella di Blogger.

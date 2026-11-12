@@ -10,10 +10,16 @@ Come è stato migrato da Blogger: vedi [MIGRAZIONE.md](MIGRAZIONE.md).
 content/posts/AAAA/nome-del-post.md   i post, uno per file, divisi per anno
 content/pagine/                       le pagine statiche (Nuvole, Stelle…)
 content/archivio.md                   la pagina /archivio/
+content/segui.md                      la pagina /segui/ (come seguire il blog via RSS)
 static/images/                        le immagini
+static/favicon.*, apple-touch-icon.png  l'icona del sito
 layouts/                              i modelli delle pagine
+layouts/_partials/                    pezzi riusati: barra laterale, post, condivisione
+layouts/_shortcodes/youtube.html      il video di YouTube nei post
+layouts/_markup/render-link.html      i link esterni che si aprono in una nuova scheda
 assets/css/stile.css                  l'aspetto del sito
 hugo.toml                             configurazione: titolo, menu, indirizzi
+.pages.yml                            configurazione di Pages CMS
 .github/workflows/                    pubblicazione e controlli automatici
 scripts/                              script di servizio
 ```
@@ -125,7 +131,22 @@ Secondo paragrafo.
 
 **Bozze.** `draft: true` nel front matter tiene il post nascosto; si vede solo con `hugo server -D`. Toglilo per pubblicarlo.
 
-**Autore.** Non serve indicarlo: la riga "Pubblicato da" usa `author` di `hugo.toml`. Si può scrivere `author: "Nome"` per un post scritto da un'altra persona.
+**Autore.** Non serve indicarlo e non viene mostrato. Solo se un post ha un `author` diverso da quello di `hugo.toml` (per esempio un post scritto da un ospite), in fondo compare "Scritto da Nome".
+
+**Data ed etichette** compaiono sopra il titolo, in maiuscoletto ("MARTEDÌ 15 NOVEMBRE 2016 · NUVOLE"); le etichette sono cliccabili. La data si scrive senza fuso orario, come nell'esempio.
+
+## Scrivere dal telefono (Pages CMS)
+
+Da qualsiasi browser, anche sul telefono, si può scrivere e modificare con [Pages CMS](https://app.pagescms.org): si entra con il proprio account GitHub e si sceglie il repository. La configurazione è in `.pages.yml`.
+
+- **Post** e **Pagine** sono le due sezioni. Un post nuovo ha i campi titolo, data, etichette (una per riga), bozza e il testo in Markdown.
+- Salvare fa un commit su GitHub, che ripubblica il sito in un paio di minuti. Per un post nuovo conviene salvarlo con **Bozza** spuntata e toglierla quando è pronto.
+- Il nome del file nasce dal titolo, quindi "Il mio post" pubblicato a novembre 2026 diventa `/2026/11/il-mio-post.html`. I post nuovi possono finire direttamente in `content/posts/` invece che nella cartella dell'anno: per il sito non cambia nulla.
+- I campi che il modulo non mostra (`url`, `lastmod`, `author` dei post importati) vengono conservati al salvataggio.
+- Le immagini caricate finiscono in `static/images/` e si richiamano come `/images/nome.jpg`, con la barra iniziale.
+- **Andare a capo sul telefono**: le tastiere trasformano il doppio spazio in ". ", quindi a fine riga usa `<br>` (vedi sotto).
+- Se due persone modificano lo stesso file insieme, il secondo salvataggio viene rifiutato ("File has changed…"): copia il tuo testo prima di ricaricare la pagina, poi reinseriscilo.
+- Dopo aver scritto da Pages CMS, sul computer fai `git pull` prima di lavorare in locale.
 
 ## Formattazione
 
@@ -150,7 +171,12 @@ Prima riga\
 seconda riga
 ```
 
-Funzionano anche due spazi a fine riga (molti post importati li usano), ma sono invisibili e alcuni editor li cancellano salvando: se due righe si fondono, sostituisci gli spazi con `\`.
+Funzionano anche due spazi a fine riga (molti post importati li usano), ma sono invisibili e alcuni editor li cancellano salvando: se due righe si fondono, sostituisci gli spazi con `\`. Dal telefono, dove la tastiera trasforma il doppio spazio in ". " e può aggiungere uno spazio dopo il `\`, il modo più sicuro è `<br>` a fine riga:
+
+```markdown
+Prima riga<br>
+seconda riga
+```
 
 **Link.** I link verso altri siti si aprono da soli in una nuova scheda; quelli interni al blog (`/2018/04/entropia-e-significato.html`) nella stessa. Vale per i link in Markdown: in un link scritto a mano in HTML aggiungi tu `target="_blank" rel="noopener"`.
 
@@ -209,6 +235,8 @@ Con didascalia, usa lo shortcode `figure`. La didascalia si scrive in Markdown e
 
 I post importati usano `<figure>` scritto in HTML: lì il Markdown non viene interpretato, quindi un link nella didascalia va scritto in HTML con `target="_blank" rel="noopener"`.
 
+**Dimensioni.** Le immagini sono centrate e grandi al massimo 400 pixel per lato, come le immagini "grandi" di Blogger; un clic apre la versione piena (con `link`). Sul telefono occupano tutta la larghezza del testo. I valori sono all'inizio della sezione immagini di `assets/css/stile.css`: `--max-immagini: 25rem` (400 px; `20rem` = 320 px, `30rem` = 480 px) e `--largh-immagini: 85%`.
+
 Riduci le foto prima di caricarle: 1600 pixel sul lato lungo bastano e fanno pesare il sito molto meno.
 
 ### Video di YouTube
@@ -217,7 +245,7 @@ Riduci le foto prima di caricarle: 1600 pixel sul lato lungo bastano e fanno pes
 {{< youtube ID_DEL_VIDEO >}}
 ```
 
-dove `ID_DEL_VIDEO` è la parte finale dell'indirizzo (`youtube.com/watch?v=ID_DEL_VIDEO`).
+dove `ID_DEL_VIDEO` è la parte finale dell'indirizzo (`youtube.com/watch?v=ID_DEL_VIDEO`). Il video ha le stesse dimensioni delle immagini (al massimo 400 px, a tutta larghezza sul telefono) e usa `youtube-nocookie.com`, che non imposta cookie finché il visitatore non lo avvia. Lo shortcode è in `layouts/_shortcodes/youtube.html`.
 
 ## Etichette
 
@@ -244,7 +272,7 @@ url: /p/stelle.html
 Testo della pagina.
 ```
 
-Una pagina non compare nel menu da sola: va aggiunta in `hugo.toml`.
+Una pagina non compare nel menu da sola: va aggiunta in `hugo.toml`. Le pagine non mostrano la data, nemmeno se nel front matter ce n'è una (che però, se è nel futuro, ne ritarda la pubblicazione come per i post).
 
 ## Menu, titolo e barra laterale
 
@@ -254,7 +282,26 @@ In `hugo.toml`:
 - il menu in alto è l'elenco `[[menus.main]]`: ogni voce ha `name` (il testo), `url` (o `pageRef` per la home) e `weight` (l'ordine, dal più piccolo);
 - `author` in `[params]` è l'autore predefinito dei post.
 
-La barra laterale (etichette, archivio, feed) è in `layouts/_partials/barra.html`; i colori e i caratteri sono definiti all'inizio di `assets/css/stile.css`.
+La barra laterale è in `layouts/_partials/barra.html`:
+
+- **Etichette**, con il numero dei post;
+- **Post recenti**: gli ultimi 5 (per cambiarne il numero, modifica `first 5`);
+- **Archivio**: gli anni con il numero dei post; un clic porta alla pagina `/archivio/` già posizionata su quell'anno;
+- **Ricevi i nuovi post (RSS)**: porta alla pagina `/segui/`, che spiega cos'è un feed, permette di copiarne l'indirizzo e suggerisce qualche lettore. Il feed vero e proprio è `/feed.xml`. Il testo della pagina è in `content/segui.md`, il resto in `layouts/segui.html`.
+
+I colori e i caratteri sono definiti all'inizio di `assets/css/stile.css`.
+
+## Condivisione
+
+Sotto ogni post (nella sua pagina, in home e nelle pagine delle etichette) c'è il blocco **Condividi · Fediverso · Email**, in `layouts/_partials/condividi.html`, senza script né pulsanti di servizi esterni:
+
+- **Condividi** apre sul telefono il menu di condivisione del sistema (Signal, posta, Mastodon…); sul computer copia il link del post.
+- **Fediverso** chiede l'istanza del visitatore (es. `mastodon.uno`), la ricorda solo nel suo browser e apre la pagina di condivisione di quell'istanza (Mastodon e server compatibili).
+- **Email** apre il programma di posta con titolo e link.
+
+## Icona del sito
+
+`static/favicon.svg`, `static/favicon.ico` e `static/apple-touch-icon.png` (la Z bianca su azzurro), dichiarate in `layouts/baseof.html`. Per cambiarla basta sostituire i tre file con gli stessi nomi; i browser conservano a lungo le icone, quindi per vedere subito quella nuova ricarica con Ctrl+F5.
 
 ## Controlli automatici (scheda Actions di GitHub)
 
