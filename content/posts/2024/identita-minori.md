@@ -3,7 +3,7 @@ title: Identità minori
 date: 2024-04-26T20:00:00
 tags:
   - Nuvole
-draft: true
+draft: false
 ---
 Mi son reso conto che un uomo solo  
 non mi ha mai fatto paura.  
