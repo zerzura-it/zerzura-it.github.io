@@ -1,5 +1,5 @@
 {{- /* Dati di un video di YouTube (parametro: l'ID), raccolti al momento della build:
-     - "img": l'anteprima, ritagliata in 16:9 e pubblicata sul sito come /images/youtube/ID.jpg
+     - "img": l'anteprima, ritagliata in 16:9 e pubblicata sul sito come /images/video/ID.jpg
      - "titolo": il titolo del video (dal servizio oEmbed di YouTube)
      Se uno dei due non si riesce a scaricare, manca e Hugo mostra un avviso WARN. */ -}}
 {{- $id := . -}}
@@ -7,7 +7,7 @@
 {{- with try (resources.GetRemote (printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id)) -}}
   {{- with .Err }}{{ warnf "youtube: anteprima di %s non scaricata: %s" $id . }}{{ end -}}
   {{- with .Value -}}
-    {{- $img := (.Crop "480x270 Center").Resize "480x270" | resources.Copy (printf "images/youtube/%s.jpg" $id) -}}
+    {{- $img := (.Crop "480x270 Center").Resize "480x270" | resources.Copy (printf "images/video/%s.jpg" $id) -}}
     {{- $dati = merge $dati (dict "img" $img) -}}
   {{- end -}}
 {{- end -}}

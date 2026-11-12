@@ -1,8 +1,9 @@
-{{- /* Versione per il feed RSS: stessa anteprima e didascalia della pagina */ -}}
+{{- /* Versione per il feed RSS: anteprima (pubblicata sul sito) e didascalia con il link.
+     L'immagine non è dentro un link a YouTube: alcuni lettori di feed (es. Feeder)
+     trattano a parte i link a YouTube e non mostrano le immagini che contengono. */ -}}
 {{- $id := .Get "id" | default (.Get 0) -}}
 {{- $video := printf "https://www.youtube.com/watch?v=%s" $id -}}
 {{- $dati := partial "youtube-anteprima.html" $id -}}
 {{- $titolo := .Get "title" | default $dati.titolo | default "Video di YouTube" -}}
-<p>
-{{- with $dati.img }}<a href="{{ $video }}"><img src="{{ .Permalink }}" alt="{{ $titolo }}" width="{{ .Width }}" height="{{ .Height }}"></a><br>{{ end }}
-{{ $titolo }} · <a href="{{ $video }}">guarda su YouTube</a></p>
+{{- with $dati.img }}<p><img src="{{ .Permalink }}" alt="{{ $titolo }}" width="{{ .Width }}" height="{{ .Height }}"></p>{{ end }}
+<p>{{ $titolo }} · <a href="{{ $video }}">guarda su YouTube</a></p>
