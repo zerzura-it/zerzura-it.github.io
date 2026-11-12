@@ -5,5 +5,5 @@
 {{- $video := printf "https://www.youtube.com/watch?v=%s" $id -}}
 {{- $dati := partial "youtube-anteprima.html" $id -}}
 {{- $titolo := .Get "title" | default $dati.titolo | default "Video di YouTube" -}}
-{{- with $dati.img }}<p><img src="{{ .Permalink }}" alt="{{ $titolo }}" width="{{ .Width }}" height="{{ .Height }}"></p>{{ end }}
+{{- with $dati.img }}<p><img src="{{ .Permalink }}" alt="" width="{{ .Width }}" height="{{ .Height }}"></p>{{ end }}
 <p>{{ $titolo }} · <a href="{{ $video }}">guarda su YouTube</a></p>
