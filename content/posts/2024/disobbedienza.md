@@ -27,4 +27,4 @@ Se questa analisi è preziosa come archeologia dell’istituzione ecclesiale, e 
 
 Non è difficile riscontrare nei vangeli indicazioni precise del fatto che il Figlio non nega la sua subordinazione, bensì non cessa mai di dire e fare la volontà del Padre, accusando i farisei di non farla, e di essere cioè loro a disobbedirle o a interpretarla in modo errato. Infatti dice di essere venuto non  per abolire la Torah ma per portarla a compimento.
 
-{{< youtube 37okglFXS6pNJttX >}}
+{{< youtube EbHORRwGBlk >}}
