@@ -5,8 +5,6 @@ tags:
   - Darash
 draft: true
 ---
-Amen
-
 Spesso Gesu nei Vangeli inizia a parlare dicendo "in verità in verità vi dico…" però la traduzione dal greco αμήν λέγω con "in verità [vi] dico" potrebbe essere considerata quantomeno problematica, se non fuorviante, per diversi motivi.
 
 In primo luogo perché la nostra idea di verità è anacronistica per quell'epoca. Heidegger ha scritto pagine illuminanti su come il concetto greco di αληθεία, letteralmente "disvelamento", non sia l'equivalente della nostra idea di verità.
