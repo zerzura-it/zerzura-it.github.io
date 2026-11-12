@@ -24,3 +24,5 @@ Come conseguenza di tutto ciò, credo. Ho fede in Dio, perché ne ho evidenza e 
 Credo che dovrei fare come lui, che attraversa le relazioni con gli altri discutendo e parlando, guidato dal dubbio, quasi brancolando nel buio, ma con dei gesti e delle parole che sono precisamente rivolte ad una meta. 
 
 Se la serie del tenente Colombo ha avuto così tanto successo è forse perché incamminarsi sulla via, in cerca del Signore, fa di ogni uomo un investigatore.
+
+![Il tenente Colombo](/images/colombo.jpg)
