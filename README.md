@@ -245,7 +245,14 @@ Riduci le foto prima di caricarle: 1600 pixel sul lato lungo bastano e fanno pes
 {{< youtube ID_DEL_VIDEO >}}
 ```
 
-dove `ID_DEL_VIDEO` è la parte finale dell'indirizzo (`youtube.com/watch?v=ID_DEL_VIDEO`). Il video ha le stesse dimensioni delle immagini (al massimo 400 px, a tutta larghezza sul telefono) e usa `youtube-nocookie.com`, che non imposta cookie finché il visitatore non lo avvia. Lo shortcode è in `layouts/_shortcodes/youtube.html`.
+dove `ID_DEL_VIDEO` è la parte finale dell'indirizzo (`youtube.com/watch?v=ID_DEL_VIDEO`).
+
+Il video non viene incorporato: al suo posto compare **l'anteprima**, come un'immagine (stesse dimensioni: al massimo 400 px, a tutta larghezza sul telefono), con sotto una didascalia con **il titolo del video e il link "guarda su YouTube"**, che si apre in una nuova scheda. Così la pagina non contatta YouTube finché il visitatore non sceglie di guardare il video.
+
+- Anteprima e titolo vengono **scaricati da YouTube a ogni build** (`layouts/_partials/youtube-anteprima.html`): l'anteprima, ritagliata in 16:9, è pubblicata sul sito come `/images/video/ID.jpg` e non finisce nel repository.
+- Per mostrare un titolo diverso da quello di YouTube: `{{< youtube id="ID_DEL_VIDEO" title="Il mio titolo" >}}`.
+- Se lo scaricamento non riesce (per esempio un video rimosso o privato), resta la sola didascalia, con "Video di YouTube" al posto del titolo, e nel log della build compare un avviso `WARN youtube: …`.
+- Nel **feed RSS** il video ha la stessa anteprima e la stessa didascalia (`layouts/_shortcodes/youtube.rss.xml`), perché i lettori di feed non mostrano i video incorporati. Lì l'immagine non ha testo alternativo: alcuni lettori, come Feeder, lo mostrano come didascalia e il titolo comparirebbe due volte.
 
 ## Etichette
 
@@ -287,7 +294,7 @@ La barra laterale è in `layouts/_partials/barra.html`:
 - **Etichette**, con il numero dei post;
 - **Post recenti**: gli ultimi 5 (per cambiarne il numero, modifica `first 5`);
 - **Archivio**: gli anni con il numero dei post; un clic porta alla pagina `/archivio/` già posizionata su quell'anno;
-- **Ricevi i nuovi post (RSS)**: porta alla pagina `/segui/`, che spiega cos'è un feed, permette di copiarne l'indirizzo e suggerisce qualche lettore. Il feed vero e proprio è `/feed.xml`. Il testo della pagina è in `content/segui.md`, il resto in `layouts/segui.html`.
+- **Ricevi i nuovi post (RSS)**: porta alla pagina `/segui/`, che spiega cos'è un feed, permette di copiarne l'indirizzo e suggerisce qualche lettore. Il feed vero e proprio è `/feed.xml` e contiene tutti i post, con il testo completo (`limit = -1` nella sezione `[services.rss]` di `hugo.toml`; un numero positivo lo limiterebbe agli ultimi N). Ogni etichetta ha anche un suo feed, per esempio `/search/label/Nuvole/feed.xml`. Il testo della pagina è in `content/segui.md`, il resto in `layouts/segui.html`.
 
 I colori e i caratteri sono definiti all'inizio di `assets/css/stile.css`.
 
@@ -302,6 +309,15 @@ Sotto ogni post (nella sua pagina, in home e nelle pagine delle etichette) c'è 
 ## Icona del sito
 
 `static/favicon.svg`, `static/favicon.ico` e `static/apple-touch-icon.png` (la Z bianca su azzurro), dichiarate in `layouts/baseof.html`. Per cambiarla basta sostituire i tre file con gli stessi nomi; i browser conservano a lungo le icone, quindi per vedere subito quella nuova ricarica con Ctrl+F5.
+
+## Cache e tempi di aggiornamento
+
+Dopo un push il sito si aggiorna in un paio di minuti, ma quello che si vede può restare indietro ancora un po':
+
+- **GitHub Pages** fa conservare pagine e feed ai browser per circa 10 minuti: se una modifica non si vede, ricarica con **Ctrl+F5**.
+- **I lettori di feed** (Feeder e simili) aggiornano a intervalli e spesso non riscaricano gli articoli già scaricati: dopo una modifica che riguarda il feed conviene aspettare una decina di minuti, controllare prima `feed.xml` nel browser e, se serve, togliere e riaggiungere il feed nel lettore.
+- **L'icona del sito** resta in cache anche più a lungo (vedi sopra).
+- In locale, se `hugo server` non mostra una modifica a layout o configurazione, riavvialo con `hugo server --disableFastRender`.
 
 ## Controlli automatici (scheda Actions di GitHub)
 

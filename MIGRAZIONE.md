@@ -72,7 +72,8 @@ Rispetto alla prima versione:
 - **Navigazione tra i post** in ordine cronologico, con "Post precedente" a sinistra e "Post successivo" a destra (`layouts/page.html`).
 - **Barra laterale**: al posto delle tendine di Blogger per anni e mesi, gli ultimi 5 post e gli anni come link alla pagina `/archivio/`, che ha un'àncora per anno.
 - **Data ed etichette sopra il titolo**; tolta la riga "Pubblicato da" (l'autore compare solo se diverso da quello del sito). Le pagine non mostrano la data.
-- **Immagini e video** al massimo 400 px, come le immagini "grandi" di Blogger, a tutta larghezza sul telefono. Lo shortcode `youtube` di Hugo, che occupava sempre tutta la larghezza, è stato sostituito da `layouts/_shortcodes/youtube.html` (con `youtube-nocookie.com`).
+- **Immagini e video** al massimo 400 px, come le immagini "grandi" di Blogger, a tutta larghezza sul telefono. Lo shortcode `youtube` di Hugo è stato sostituito da uno proprio (`layouts/_shortcodes/youtube.html`): al posto del video incorporato mostra l'anteprima, scaricata a ogni build e pubblicata sul sito, con una didascalia con titolo e link a YouTube. Nel feed RSS (`youtube.rss.xml`) stessa anteprima e didascalia, perché i lettori di feed come Feeder tolgono i video incorporati.
+- **Feed RSS completo**: tutti i post, non solo gli ultimi 20.
 - **Note a piè di pagina** (`enableAutoIDPrefix`, perché le note di più post nella stessa pagina non si confondano) e **link esterni in una nuova scheda** (render hook).
 - **Condivisione** in fondo ai post: Condividi (menu di sistema o copia del link), Fediverso, Email. Volutamente niente WhatsApp, Telegram o pulsanti di servizi che tracciano i visitatori.
 - **Pagina `/segui/`** al posto del link diretto al feed RSS, che i browser mostrano come codice XML.
