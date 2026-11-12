@@ -3,7 +3,7 @@ title: Amen
 date: 2023-12-31T07:00:00
 tags:
   - Darash
-draft: true
+draft: false
 ---
 Spesso Gesu nei Vangeli inizia a parlare dicendo "in verità in verità vi dico…" però la traduzione dal greco αμήν λέγω con "in verità [vi] dico" potrebbe essere considerata quantomeno problematica, se non fuorviante, per diversi motivi.
 
