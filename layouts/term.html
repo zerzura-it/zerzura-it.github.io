@@ -2,7 +2,7 @@
   <p class="avviso">Post con etichetta <strong>{{ .Title }}</strong></p>
   {{ $pag := .Paginate .Pages }}
   {{ range $pag.Pages }}
-    {{ partial "post.html" . }}
+    {{ partial "post.html" (dict "pagina" . "condividi" true) }}
   {{ end }}
   <nav class="paginazione" aria-label="Altre pagine">
     {{ with $pag.Prev }}<a href="{{ .URL }}">← Post più recenti</a>{{ end }}

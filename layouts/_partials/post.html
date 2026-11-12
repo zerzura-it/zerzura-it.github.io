@@ -1,8 +1,15 @@
-{{- /* Un post: titolo, data, contenuto e piè di pagina. Parametro: la pagina */ -}}
+{{- /* Un post: titolo, data, contenuto e piè di pagina.
+     Parametro: la pagina, oppure (dict "pagina" . "condividi" true) per mostrare anche i pulsanti di condivisione */ -}}
+{{- $p := . }}{{ $condividi := false -}}
+{{- if reflect.IsMap . }}{{ $p = .pagina }}{{ $condividi = .condividi }}{{ end -}}
+{{- with $p -}}
 <article class="post">
-  {{- /* la data si mostra solo nei post: le pagine (Nuvole, Stelle…) sono senza tempo, come su Blogger */}}
+  {{- /* sopra il titolo, solo nei post: data ed etichette (le pagine come Nuvole e Stelle sono senza tempo) */}}
   {{ if and (eq .Section "posts") (not .Date.IsZero) }}
-    <p class="data"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time></p>
+    <p class="data">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_full" }}</time>
+      {{- range .GetTerms "tags" }} · <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+    </p>
   {{ end }}
   {{ if .IsPage }}
     <h1 class="titolo-post">{{ .Title }}</h1>
@@ -13,11 +20,9 @@
     {{ .Content }}
   </div>
   {{ if eq .Section "posts" }}
-    <p class="info">
-      Pubblicato da {{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}
-      {{ with .GetTerms "tags" }} · Etichette:
-        {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
-      {{ end }}
-    </p>
+    {{- /* l'autore compare solo se diverso da quello del sito (es. un post ospite) */}}
+    {{ with .Params.author }}{{ if ne . site.Params.author }}<p class="info">Scritto da {{ . }}</p>{{ end }}{{ end }}
+    {{ if $condividi }}{{ partial "condividi.html" . }}{{ end }}
   {{ end }}
 </article>
+{{- end -}}

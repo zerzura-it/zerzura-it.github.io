@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ partial "post.html" . }}
+  {{ partial "post.html" (dict "pagina" . "condividi" true) }}
   {{ if eq .Section "posts" }}
     {{/* Post in ordine cronologico: a sinistra il precedente (più vecchio), a destra il successivo */}}
     {{ $post := (where site.RegularPages "Section" "posts").ByDate }}

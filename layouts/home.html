@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ $pag := .Paginate (where site.RegularPages "Section" "posts") }}
   {{ range $pag.Pages }}
-    {{ partial "post.html" . }}
+    {{ partial "post.html" (dict "pagina" . "condividi" true) }}
   {{ end }}
   <nav class="paginazione" aria-label="Altre pagine">
     {{ with $pag.Prev }}<a href="{{ .URL }}">← Post più recenti</a>{{ end }}

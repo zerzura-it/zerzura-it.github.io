@@ -1,0 +1,75 @@
+{{- /* Condivisione di un post, senza script né pulsanti di servizi esterni.
+     - "Condividi": sul telefono apre il menu di sistema (Signal, email, Mastodon…);
+       dove non c'è, copia il link negli appunti.
+     - "Fediverso": chiede l'istanza (es. mastodon.uno), la ricorda in questo browser
+       e apre la pagina di condivisione di quell'istanza.
+     - "Email": apre il programma di posta.
+     Parametro: la pagina */ -}}
+{{- $url := .Permalink -}}
+{{- $testo := printf "%s · %s" .Title site.Title -}}
+{{- /* testo codificato per gli indirizzi, con gli spazi come %20 (alcuni programmi di posta mostrano i "+") */ -}}
+{{- $t := replace (querify "t" $testo) "+" "%20" | strings.TrimPrefix "t=" -}}
+{{- $u := querify "t" $url | strings.TrimPrefix "t=" -}}
+<div class="condividi" data-url="{{ $url }}" data-titolo="{{ $testo }}">
+  <button type="button" class="condividi-pulsante" title="Condividi con Signal, la posta o altre app">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+      <line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/>
+    </svg>
+    <span>Condividi</span>
+  </button>
+  <span class="condividi-altri">
+    <button type="button" class="condividi-link condividi-fedi" aria-expanded="false">Fediverso</button>
+    · <a href="{{ printf "mailto:?subject=%s&body=%s" $t $u | safeURL }}">Email</a>
+  </span>
+  <span class="condividi-esito" role="status" aria-live="polite"></span>
+  <form class="condividi-istanza" hidden>
+    <label>La tua istanza
+      <input type="text" name="istanza" placeholder="mastodon.uno" autocomplete="off" autocapitalize="off" spellcheck="false" required>
+    </label>
+    <button type="submit">Condividi</button>
+  </form>
+</div>
+<script>
+  (() => {
+    const box = document.currentScript.previousElementSibling;
+    const dati = { title: box.dataset.titolo, url: box.dataset.url };
+    const esito = box.querySelector('.condividi-esito');
+    const modulo = box.querySelector('.condividi-istanza');
+    const campo = modulo.querySelector('input');
+    const avvisa = (testo) => { esito.textContent = testo; setTimeout(() => { esito.textContent = ''; }, 4000); };
+
+    // Condividi: menu di sistema se c'è, altrimenti copia il link
+    box.querySelector('.condividi-pulsante').addEventListener('click', async () => {
+      try {
+        if (navigator.share) { await navigator.share(dati); return; }
+        await navigator.clipboard.writeText(dati.url);
+        avvisa('Link copiato');
+      } catch (err) {
+        if (err.name !== 'AbortError') avvisa(dati.url);
+      }
+    });
+
+    // Fediverso: chiede l'istanza e apre la sua pagina /share
+    const fedi = box.querySelector('.condividi-fedi');
+    fedi.addEventListener('click', () => {
+      modulo.hidden = !modulo.hidden;
+      fedi.setAttribute('aria-expanded', String(!modulo.hidden));
+      if (!modulo.hidden) {
+        try { campo.value = localStorage.getItem('istanza-fediverso') || ''; } catch (e) {}
+        campo.focus();
+      }
+    });
+    modulo.addEventListener('submit', (e) => {
+      e.preventDefault();
+      // accetta "mastodon.uno", "https://mastodon.uno/…" o "@nome@mastodon.uno"
+      const host = campo.value.trim().replace(/^https?:\/\//, '').replace(/^@?[^@\s]+@/, '').split(/[\/?#]/)[0].toLowerCase();
+      if (!/^[a-z0-9.-]+\.[a-z]{2,}$/.test(host)) { avvisa('Scrivi solo il nome dell\'istanza, es. mastodon.uno'); return; }
+      try { localStorage.setItem('istanza-fediverso', host); } catch (e) {}
+      const testo = encodeURIComponent(dati.title + ' ' + dati.url);
+      window.open('https://' + host + '/share?text=' + testo, '_blank', 'noopener');
+      modulo.hidden = true;
+      fedi.setAttribute('aria-expanded', 'false');
+    });
+  })();
+</script>
