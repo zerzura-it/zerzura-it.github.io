@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <article class="post">
+    <h1 class="titolo-post">{{ .Title }}</h1>
+    <div class="testo">
+      {{ .Content }}
+      {{ with site.Home.OutputFormats.Get "rss" }}
+        <div class="feed-indirizzo">
+          <code id="feed-url">{{ .Permalink }}</code>
+          <button type="button" id="feed-copia">Copia indirizzo</button>
+          <span id="feed-esito" role="status" aria-live="polite"></span>
+        </div>
+      {{ end }}
+      <h3>Qualche lettore libero</h3>
+      <ul>
+        <li><strong>Android</strong>: <a href="https://f-droid.org/packages/com.nononsenseapps.feeder/">Feeder</a></li>
+        <li><strong>iPhone, iPad e Mac</strong>: <a href="https://netnewswire.com/">NetNewsWire</a></li>
+        <li><strong>Computer</strong>: <a href="https://www.thunderbird.net/">Thunderbird</a>, che oltre alla posta legge anche i feed</li>
+      </ul>
+      <p>Sono gratuiti, open source e non tracciano quello che leggi.</p>
+    </div>
+  </article>
+  <script>
+    document.getElementById('feed-copia').addEventListener('click', async () => {
+      const url = document.getElementById('feed-url').textContent.trim();
+      const esito = document.getElementById('feed-esito');
+      try { await navigator.clipboard.writeText(url); esito.textContent = 'Copiato'; }
+      catch (e) { const r = document.createRange(); r.selectNodeContents(document.getElementById('feed-url'));
+                  const s = getSelection(); s.removeAllRanges(); s.addRange(r); esito.textContent = 'Selezionato: premi Ctrl+C'; }
+      setTimeout(() => { esito.textContent = ''; }, 4000);
+    });
+  </script>
+{{ end }}

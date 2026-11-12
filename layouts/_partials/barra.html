@@ -30,7 +30,7 @@
   <section>
     <h2>Seguimi</h2>
     <ul>
-      {{ with site.Home.OutputFormats.Get "rss" }}<li><a href="{{ .RelPermalink }}">Feed dei post (RSS)</a></li>{{ end }}
+      <li><a href="{{ "segui/" | relURL }}">Ricevi i nuovi post (RSS)</a></li>
       {{ with site.Params.aboutme }}<li><a href="{{ . }}">about.me</a></li>{{ end }}
     </ul>
   </section>

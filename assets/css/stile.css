@@ -186,3 +186,12 @@ main { max-width: 42rem; }
 }
 .condividi-istanza button { color: var(--accento); cursor: pointer; }
 .condividi-esito { color: var(--inchiostro); }
+
+/* pagina "Segui il blog" */
+.feed-indirizzo { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin: 1.5em 0; font: 0.9rem/1.5 var(--sans); }
+.feed-indirizzo code { padding: 0.4rem 0.7rem; border: 1px solid var(--linea); border-radius: 4px; background: var(--carta); overflow-wrap: anywhere; }
+.feed-indirizzo button {
+  font: inherit; color: var(--accento); background: transparent; cursor: pointer;
+  border: 1px solid var(--linea); border-radius: 999px; padding: 0.35rem 0.9rem;
+}
+.feed-indirizzo button:hover { border-color: var(--accento); }
