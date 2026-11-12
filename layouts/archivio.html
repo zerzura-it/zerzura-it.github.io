@@ -1,7 +1,7 @@
 {{ define "main" }}
   <h1 class="titolo-post">{{ .Title }}</h1>
   {{ range (where site.RegularPages "Section" "posts").GroupByDate "2006" }}
-    <section class="archivio">
+    <section class="archivio" id="{{ .Key }}">
       <h2>{{ .Key }}</h2>
       <ul class="elenco">
         {{ range .Pages }}

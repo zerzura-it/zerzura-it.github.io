@@ -100,16 +100,21 @@ main { max-width: 42rem; }
 
 /* immagini: centrate, con un margine di circa il 7,5% per lato rispetto al testo */
 :root { --largh-immagini: 85%; }
-.testo img { max-width: var(--largh-immagini); height: auto; border-radius: 2px; }
+/* --max-immagini: dimensione massima, come le immagini "grandi" di Blogger (400 px) */
+:root { --max-immagini: 25rem; }
+.testo img { max-width: min(var(--largh-immagini), var(--max-immagini)); height: auto; border-radius: 2px; }
 .testo p > img:only-child, .testo p > a:only-child > img { display: block; margin: 2em auto; }
 .testo figure { margin: 2em auto; text-align: center; }
-.testo figure img { max-height: 32rem; width: auto; }
-.testo figcaption { max-width: var(--largh-immagini); margin-left: auto; margin-right: auto; }
+.testo figure img { max-height: var(--max-immagini); width: auto; }
+.testo figcaption { max-width: min(var(--largh-immagini), var(--max-immagini)); margin-left: auto; margin-right: auto; }
 @media (max-width: 40rem) { :root { --largh-immagini: 100%; } }  /* telefono: a tutta larghezza */
 
 .testo figcaption { font: 0.85rem/1.5 var(--sans); color: var(--tenue); margin-top: 0.5rem; }
 .testo figcaption p { margin: 0; }
 .testo iframe, .testo video { max-width: 100%; }
+/* video di YouTube (shortcode youtube): stessa larghezza delle immagini, 16:9 */
+.testo .video { width: min(var(--largh-immagini), var(--max-immagini)); margin: 2em auto; aspect-ratio: 16 / 9; }
+.testo .video iframe { width: 100%; height: 100%; border: 0; border-radius: 2px; }
 .testo table { border-collapse: collapse; margin: 1.5em 0; }
 .testo td, .testo th { border: 1px solid var(--linea); padding: 0.3em 0.6em; }
 .testo hr { border: 0; border-top: 1px solid var(--linea); margin: 2em 0; }
@@ -126,9 +131,11 @@ main { max-width: 42rem; }
 .barra li { margin: 0.2rem 0; }
 .barra a { text-decoration: none; }
 .barra a:hover { text-decoration: underline; }
-.barra summary { cursor: pointer; }
-.barra .mese { margin-left: 1rem; }
-.barra .mese ul { margin: 0.2rem 0 0.4rem 1rem; }
+.barra .recenti li { margin: 0 0 0.5rem; line-height: 1.35; }
+.barra .anni { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; }
+.barra .anni li { margin: 0; }
+.barra .tutti { margin: 0.6rem 0 0; }
+.archivio { scroll-margin-top: 1rem; }
 .conta { color: var(--tenue); }
 
 .elenco { padding-left: 1.2rem; }

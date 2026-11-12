@@ -1,0 +1,9 @@
+{{- /* Video di YouTube: {{< youtube ID >}} oppure {{< youtube id="ID" title="Titolo" >}}
+     Larghezza come le immagini (vedi --largh-immagini in stile.css), proporzione 16:9 */ -}}
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- $titolo := .Get "title" | default "Video di YouTube" -}}
+<div class="video">
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ $id }}" title="{{ $titolo }}" loading="lazy"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

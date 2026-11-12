@@ -8,22 +8,23 @@
     </ul>
   </section>
 
+  {{ $post := where site.RegularPages "Section" "posts" }}
   <section>
-    <h2>Archivio blog</h2>
-    {{ $post := where site.RegularPages "Section" "posts" }}
-    {{ range $i, $anno := $post.GroupByDate "2006" }}
-      <details class="anno"{{ if eq $i 0 }} open{{ end }}>
-        <summary>{{ .Key }} <span class="conta">({{ len .Pages }})</span></summary>
-        {{ range .Pages.GroupByDate "January" }}
-          <details class="mese">
-            <summary>{{ .Key | lower }} <span class="conta">({{ len .Pages }})</span></summary>
-            <ul>
-              {{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
-            </ul>
-          </details>
-        {{ end }}
-      </details>
-    {{ end }}
+    <h2>Post recenti</h2>
+    <ul class="recenti">
+      {{ range first 5 $post }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Archivio</h2>
+    {{/* un clic per anno: porta alla pagina Archivio, all'anno scelto */}}
+    <ul class="anni">
+      {{ range $post.GroupByDate "2006" }}
+        <li><a href="{{ "archivio/" | relURL }}#{{ .Key }}">{{ .Key }}</a> <span class="conta">({{ len .Pages }})</span></li>
+      {{ end }}
+    </ul>
+    <p class="tutti"><a href="{{ "archivio/" | relURL }}">Tutti i post →</a></p>
   </section>
 
   <section>
