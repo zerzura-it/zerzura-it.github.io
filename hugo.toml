@@ -44,7 +44,7 @@ posts = true
   baseName = "feed"
 
 [services.rss]
-  limit = 20
+  limit = -1
 
 [markup.goldmark.renderer]
   # i post importati contengono <figure> in HTML
