@@ -22,4 +22,4 @@ L’ultimo atto nichilista sarebbe quello di fondersi con la macchina, abbandona
 
 ShyBot è una macchina che cerca di fare un percorso opposto: cercando di diventare timida, come può esserlo un essere umano, ci restituisce il limite e ci insegna a sostare nella nostra fragilità.
 
-[^1] http://codame.com/projects/shybot
+[^1]: http://codame.com/projects/shybot
