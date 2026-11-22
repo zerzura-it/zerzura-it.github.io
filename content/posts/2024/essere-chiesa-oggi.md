@@ -4,10 +4,10 @@ date: 2024-09-09T00:00:00
 tags: ["Nuvole"]
 ---
 
-Non c'è più giudeo né greco
-non c'è più schiavo né libero
-non c'è più uomo né donna
-poiché tutti voi siete uno in Cristo Gesù
+Non c'è più giudeo né greco  
+non c'è più schiavo né libero  
+non c'è più uomo né donna  
+poiché tutti voi siete uno in Cristo Gesù  
 Galati 3,28
 {.destra}
 
