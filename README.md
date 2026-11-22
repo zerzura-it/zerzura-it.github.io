@@ -137,16 +137,59 @@ Secondo paragrafo.
 
 ## Scrivere dal telefono (Pages CMS)
 
-Da qualsiasi browser, anche sul telefono, si può scrivere e modificare con [Pages CMS](https://app.pagescms.org): si entra con il proprio account GitHub e si sceglie il repository. La configurazione è in `.pages.yml`.
+Dal telefono (ma anche da qualsiasi computer senza Git e Hugo) si scrive con [Pages CMS](https://app.pagescms.org), un'applicazione web che modifica i file del repository e salva le modifiche con un commit. La configurazione è in `.pages.yml`.
 
-- **Post** e **Pagine** sono le due sezioni. Un post nuovo ha i campi titolo, data, etichette (una per riga), bozza e il testo in Markdown.
-- Salvare fa un commit su GitHub, che ripubblica il sito in un paio di minuti. Per un post nuovo conviene salvarlo con **Bozza** spuntata e toglierla quando è pronto.
-- Il nome del file nasce dal titolo, quindi "Il mio post" pubblicato a novembre 2026 diventa `/2026/11/il-mio-post.html`. I post nuovi possono finire direttamente in `content/posts/` invece che nella cartella dell'anno: per il sito non cambia nulla.
-- I campi che il modulo non mostra (`url`, `lastmod`, `author` dei post importati) vengono conservati al salvataggio.
-- Le immagini caricate finiscono in `static/images/` e si richiamano come `/images/nome.jpg`, con la barra iniziale.
-- **Andare a capo sul telefono**: le tastiere trasformano il doppio spazio in ". ", quindi a fine riga usa `<br>` (vedi sotto).
-- Se due persone modificano lo stesso file insieme, il secondo salvataggio viene rifiutato ("File has changed…"): copia il tuo testo prima di ricaricare la pagina, poi reinseriscilo.
-- Dopo aver scritto da Pages CMS, sul computer fai `git pull` prima di lavorare in locale.
+### Accesso
+
+1. Apri https://app.pagescms.org e scegli **Sign in with GitHub**, con il tuo account personale.
+2. Scegli il repository `zerzura-it/zerzura-it.github.io`.
+3. Comodo sul telefono: dal menu del browser **Aggiungi a schermata Home**, così Pages CMS si apre come un'app.
+
+L'app di Pages CMS è installata nell'organizzazione `zerzura-it`, limitata a questo repository. Si può rivedere o revocare in *Settings dell'organizzazione → GitHub Apps*.
+
+### Scrivere un post nuovo
+
+1. Sezione **Post** → **Add an entry** (o il pulsante **+**).
+2. Compila **Titolo** e **Data di pubblicazione**; aggiungi le **Etichette** (una per voce, scritte sempre allo stesso modo: `Nuvole`, `Darash`; per crearne una nuova basta scriverla).
+3. Lascia spuntato **Bozza** finché il post non è pronto.
+4. Scrivi nel campo **Testo** in Markdown (vedi *Formattazione*; le stesse regole valgono qui).
+5. **Save**: il post viene salvato su GitHub. Con *Bozza* spuntata non compare sul sito.
+6. Quando è pronto, togli la spunta a *Bozza* e salva: dopo un paio di minuti è online.
+
+Il nome del file nasce dal titolo, quindi "Il mio post" pubblicato a novembre 2026 diventa `/2026/11/il-mio-post.html`. I post nuovi possono finire direttamente in `content/posts/` invece che nella cartella dell'anno: per il sito non cambia nulla.
+
+### Modificare un post esistente
+
+Sezione **Post** → apri il post → modifica → **Save**. I campi che il modulo non mostra (`url`, `lastmod`, `author` dei post importati) vengono conservati, quindi l'indirizzo del post non cambia.
+
+### Immagini
+
+Nel campo *Testo* usa il pulsante per inserire un'immagine, oppure caricala dalla sezione **Media**: finisce in `static/images/`. Nel testo va richiamata con la barra iniziale:
+
+```
+![Descrizione](/images/foto.jpg)
+```
+
+Senza la `/` iniziale l'immagine si vede in home ma non nella pagina del post. Per una didascalia usa lo shortcode `figure` (vedi *Immagini*). Le foto del telefono sono molto grandi: se puoi, riducile prima di caricarle.
+
+### Accorgimenti per il telefono
+
+- **Andare a capo**: le tastiere trasformano il doppio spazio in ". " e possono aggiungere uno spazio dopo `\`, quindi a fine riga usa `<br>`. Vale anche per le epigrafi con `{.destra}`.
+- **Virgolette e apostrofi**: la tastiera può inserire quelle tipografiche (“ ” ’). Nel testo vanno benissimo; dentro gli shortcode (`{{< youtube … >}}`, `{{< figure … >}}`) servono invece quelle dritte (`"`).
+- **Note a piè di pagina** di più paragrafi richiedono rientri di 4 spazi: sono scomode da scrivere sul telefono, meglio sistemarle dal computer.
+- **Video**: `{{< youtube ID >}}` su una riga a sé, senza spazi davanti.
+
+### Cosa non si fa da Pages CMS
+
+La pagina `/segui/`, la configurazione (`hugo.toml`), la grafica (`layouts/`, `assets/css/`) e il menu si modificano dal computer.
+
+### Due persone sullo stesso file
+
+Se il file è stato modificato da un'altra parte dopo che l'hai aperto, il salvataggio viene rifiutato con *"File has changed since you last loaded it"*. **Prima di ricaricare la pagina copia il tuo testo**, poi ricarica e reinseriscilo.
+
+### Tornando al computer
+
+Pages CMS salva direttamente su GitHub: sul computer fai sempre `git pull` prima di lavorare in locale.
 
 ## Formattazione
 
