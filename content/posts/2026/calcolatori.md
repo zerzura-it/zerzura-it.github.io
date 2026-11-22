@@ -31,7 +31,7 @@ Rileggendo il canto XXVII ho scoperto che all'inizio Dante sente un suono confus
 
 In questo aneddoto è racchiusa l'atrocità del ridurre l'uomo alla porzione di un meccanismo, e al contempo la hybris di voler costruire un meccanismo che simuli il vivente. La saggezza antica condanna in questo aneddoto entrambe le tentazioni. Noi abbiamo perso quella saggezza e siamo convinti che il diavolo non esista. E la più bella astuzia del diavolo è farci credere che non esiste[^1].
 
-Ora, per alcuni potrà sembrare solo un caso, ma io non credo al caso, per cui non mi ha stupito scoprire che Joscha Bach ha avuto una lunga relazioen con Jeffrey Epstein ed è stato da questi finanziato[^2].
+Ora, per alcuni potrà sembrare solo un caso, ma io non credo al caso, per cui non mi ha stupito scoprire che Joscha Bach ha avuto una lunga relazione con Jeffrey Epstein ed è stato da questi finanziato[^2].
 
 {{< figure src="/images/anticristo-signorelli.png" link="/images/anticristo-signorelli.png"
     caption="Dettaglio dell'affresco 'Predica e morte dell’Anticristo' realizzato intorno al 1499-1502 da Luca Signorelli nel Duomo di Orvieto" >}}
