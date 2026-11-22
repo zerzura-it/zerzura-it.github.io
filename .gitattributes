@@ -1,0 +1,13 @@
+# Fine riga: sempre LF (stile Linux) nel repository e nei file sul computer,
+# anche su Windows. Evita gli avvisi "LF will be replaced by CRLF".
+* text=auto eol=lf
+
+# File binari: nessuna conversione
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.pdf   binary
+
