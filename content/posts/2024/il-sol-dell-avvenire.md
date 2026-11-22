@@ -1,9 +1,8 @@
 ---
 title: Il sol dell'avvenire
-date: 2026-11-22T12:00:00
+date: 2024-01-20T12:00:00
 tags:
   - Nuvole
-draft: true
 ---
 La cosa che ho subito notato è che Nanni Moretti in questo film recita in modo stonato, sottilmente estraniante. L'intonazione della voce, lo sguardo vacuo. È come se ci stesse avvisando che la realtà in cui viviamo, il nostro presente, non è più autentico. Ma non ci sono neppure le parole per dirlo. 
 
