@@ -3,7 +3,6 @@ title: Calcolatori
 date: 2026-11-14T18:50:00
 tags:
   - Nuvole
-draft: true
 ---
 Se accettiamo che l’universo e tutto ciò che contiene   
 siano fondamentalmente computazionali  
