@@ -16,7 +16,7 @@ Il corpo è la possibilità offertaci di entrare in relazione con gli altri e il
 
 E proprio questo è il punto esatto in cui si insinuano i nuovi strumenti di manipolazione. Quanto più ci viene fatto credere che il nostro corpo sia nient’altro che una macchina, tanto più diveniamo docili ad accettare una vita mediata dalla tecnologia, in cui la nostra soggettività entra in relazione con il mondo e gli altri attraverso dei dispositivi il cui controllo è nelle mani di pochi.
 
-[1]: [Il volto e la morte](https://www.quodlibet.it/giorgio-agamben-il-volto-e-la-morte)
+[^1]: [Il volto e la morte](https://www.quodlibet.it/giorgio-agamben-il-volto-e-la-morte)
 
 {{< figure src="/images/le-avventure-di-pinocchio.jpg" 
     caption="Le avventure di Pinocchio"
